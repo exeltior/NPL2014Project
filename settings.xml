@@ -1,0 +1,2555 @@
+<ROUGE_EVAL version="1.55">
+
+<P ID="1">.DS_Store</P>
+<EVAL ID="TASK_1">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D30001.APW19981016.0240.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D30001.0.txt</M>
+<M ID="1">D30001.1.txt</M>
+<M ID="2">D30001.10.txt</M>
+<M ID="3">D30001.11.txt</M>
+<M ID="4">D30001.12.txt</M>
+<M ID="5">D30001.13.txt</M>
+<M ID="6">D30001.14.txt</M>
+<M ID="7">D30001.15.txt</M>
+<M ID="8">D30001.16.txt</M>
+<M ID="9">D30001.17.txt</M>
+<M ID="10">D30001.18.txt</M>
+<M ID="11">D30001.19.txt</M>
+<M ID="12">D30001.2.txt</M>
+<M ID="13">D30001.20.txt</M>
+<M ID="14">D30001.21.txt</M>
+<M ID="15">D30001.22.txt</M>
+<M ID="16">D30001.23.txt</M>
+<M ID="17">D30001.24.txt</M>
+<M ID="18">D30001.25.txt</M>
+<M ID="19">D30001.26.txt</M>
+<M ID="20">D30001.27.txt</M>
+<M ID="21">D30001.28.txt</M>
+<M ID="22">D30001.29.txt</M>
+<M ID="23">D30001.3.txt</M>
+<M ID="24">D30001.30.txt</M>
+<M ID="25">D30001.31.txt</M>
+<M ID="26">D30001.32.txt</M>
+<M ID="27">D30001.33.txt</M>
+<M ID="28">D30001.34.txt</M>
+<M ID="29">D30001.35.txt</M>
+<M ID="30">D30001.36.txt</M>
+<M ID="31">D30001.37.txt</M>
+<M ID="32">D30001.38.txt</M>
+<M ID="33">D30001.39.txt</M>
+<M ID="34">D30001.4.txt</M>
+<M ID="35">D30001.5.txt</M>
+<M ID="36">D30001.6.txt</M>
+<M ID="37">D30001.7.txt</M>
+<M ID="38">D30001.8.txt</M>
+<M ID="39">D30001.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_2">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D30002.APW19981027.0241.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D30002.0.txt</M>
+<M ID="1">D30002.1.txt</M>
+<M ID="2">D30002.10.txt</M>
+<M ID="3">D30002.11.txt</M>
+<M ID="4">D30002.12.txt</M>
+<M ID="5">D30002.13.txt</M>
+<M ID="6">D30002.14.txt</M>
+<M ID="7">D30002.15.txt</M>
+<M ID="8">D30002.16.txt</M>
+<M ID="9">D30002.17.txt</M>
+<M ID="10">D30002.18.txt</M>
+<M ID="11">D30002.19.txt</M>
+<M ID="12">D30002.2.txt</M>
+<M ID="13">D30002.20.txt</M>
+<M ID="14">D30002.21.txt</M>
+<M ID="15">D30002.22.txt</M>
+<M ID="16">D30002.23.txt</M>
+<M ID="17">D30002.24.txt</M>
+<M ID="18">D30002.25.txt</M>
+<M ID="19">D30002.26.txt</M>
+<M ID="20">D30002.27.txt</M>
+<M ID="21">D30002.28.txt</M>
+<M ID="22">D30002.29.txt</M>
+<M ID="23">D30002.3.txt</M>
+<M ID="24">D30002.30.txt</M>
+<M ID="25">D30002.31.txt</M>
+<M ID="26">D30002.32.txt</M>
+<M ID="27">D30002.33.txt</M>
+<M ID="28">D30002.34.txt</M>
+<M ID="29">D30002.35.txt</M>
+<M ID="30">D30002.36.txt</M>
+<M ID="31">D30002.37.txt</M>
+<M ID="32">D30002.38.txt</M>
+<M ID="33">D30002.39.txt</M>
+<M ID="34">D30002.4.txt</M>
+<M ID="35">D30002.5.txt</M>
+<M ID="36">D30002.6.txt</M>
+<M ID="37">D30002.7.txt</M>
+<M ID="38">D30002.8.txt</M>
+<M ID="39">D30002.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_3">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D30003.APW19981018.0423.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D30003.0.txt</M>
+<M ID="1">D30003.1.txt</M>
+<M ID="2">D30003.10.txt</M>
+<M ID="3">D30003.11.txt</M>
+<M ID="4">D30003.12.txt</M>
+<M ID="5">D30003.13.txt</M>
+<M ID="6">D30003.14.txt</M>
+<M ID="7">D30003.15.txt</M>
+<M ID="8">D30003.16.txt</M>
+<M ID="9">D30003.17.txt</M>
+<M ID="10">D30003.18.txt</M>
+<M ID="11">D30003.19.txt</M>
+<M ID="12">D30003.2.txt</M>
+<M ID="13">D30003.20.txt</M>
+<M ID="14">D30003.21.txt</M>
+<M ID="15">D30003.22.txt</M>
+<M ID="16">D30003.23.txt</M>
+<M ID="17">D30003.24.txt</M>
+<M ID="18">D30003.25.txt</M>
+<M ID="19">D30003.26.txt</M>
+<M ID="20">D30003.27.txt</M>
+<M ID="21">D30003.28.txt</M>
+<M ID="22">D30003.29.txt</M>
+<M ID="23">D30003.3.txt</M>
+<M ID="24">D30003.30.txt</M>
+<M ID="25">D30003.31.txt</M>
+<M ID="26">D30003.32.txt</M>
+<M ID="27">D30003.33.txt</M>
+<M ID="28">D30003.34.txt</M>
+<M ID="29">D30003.35.txt</M>
+<M ID="30">D30003.36.txt</M>
+<M ID="31">D30003.37.txt</M>
+<M ID="32">D30003.38.txt</M>
+<M ID="33">D30003.39.txt</M>
+<M ID="34">D30003.4.txt</M>
+<M ID="35">D30003.5.txt</M>
+<M ID="36">D30003.6.txt</M>
+<M ID="37">D30003.7.txt</M>
+<M ID="38">D30003.8.txt</M>
+<M ID="39">D30003.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_4">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D30005.APW19981003.0517.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D30005.0.txt</M>
+<M ID="1">D30005.1.txt</M>
+<M ID="2">D30005.10.txt</M>
+<M ID="3">D30005.11.txt</M>
+<M ID="4">D30005.12.txt</M>
+<M ID="5">D30005.13.txt</M>
+<M ID="6">D30005.14.txt</M>
+<M ID="7">D30005.15.txt</M>
+<M ID="8">D30005.16.txt</M>
+<M ID="9">D30005.17.txt</M>
+<M ID="10">D30005.18.txt</M>
+<M ID="11">D30005.19.txt</M>
+<M ID="12">D30005.2.txt</M>
+<M ID="13">D30005.20.txt</M>
+<M ID="14">D30005.21.txt</M>
+<M ID="15">D30005.22.txt</M>
+<M ID="16">D30005.23.txt</M>
+<M ID="17">D30005.24.txt</M>
+<M ID="18">D30005.25.txt</M>
+<M ID="19">D30005.26.txt</M>
+<M ID="20">D30005.27.txt</M>
+<M ID="21">D30005.28.txt</M>
+<M ID="22">D30005.29.txt</M>
+<M ID="23">D30005.3.txt</M>
+<M ID="24">D30005.30.txt</M>
+<M ID="25">D30005.31.txt</M>
+<M ID="26">D30005.32.txt</M>
+<M ID="27">D30005.33.txt</M>
+<M ID="28">D30005.34.txt</M>
+<M ID="29">D30005.35.txt</M>
+<M ID="30">D30005.36.txt</M>
+<M ID="31">D30005.37.txt</M>
+<M ID="32">D30005.38.txt</M>
+<M ID="33">D30005.39.txt</M>
+<M ID="34">D30005.4.txt</M>
+<M ID="35">D30005.5.txt</M>
+<M ID="36">D30005.6.txt</M>
+<M ID="37">D30005.7.txt</M>
+<M ID="38">D30005.8.txt</M>
+<M ID="39">D30005.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_5">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D30006.APW19981018.0836.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D30006.0.txt</M>
+<M ID="1">D30006.1.txt</M>
+<M ID="2">D30006.10.txt</M>
+<M ID="3">D30006.11.txt</M>
+<M ID="4">D30006.12.txt</M>
+<M ID="5">D30006.13.txt</M>
+<M ID="6">D30006.14.txt</M>
+<M ID="7">D30006.15.txt</M>
+<M ID="8">D30006.16.txt</M>
+<M ID="9">D30006.17.txt</M>
+<M ID="10">D30006.18.txt</M>
+<M ID="11">D30006.19.txt</M>
+<M ID="12">D30006.2.txt</M>
+<M ID="13">D30006.20.txt</M>
+<M ID="14">D30006.21.txt</M>
+<M ID="15">D30006.22.txt</M>
+<M ID="16">D30006.23.txt</M>
+<M ID="17">D30006.24.txt</M>
+<M ID="18">D30006.25.txt</M>
+<M ID="19">D30006.26.txt</M>
+<M ID="20">D30006.27.txt</M>
+<M ID="21">D30006.28.txt</M>
+<M ID="22">D30006.29.txt</M>
+<M ID="23">D30006.3.txt</M>
+<M ID="24">D30006.30.txt</M>
+<M ID="25">D30006.31.txt</M>
+<M ID="26">D30006.32.txt</M>
+<M ID="27">D30006.33.txt</M>
+<M ID="28">D30006.34.txt</M>
+<M ID="29">D30006.35.txt</M>
+<M ID="30">D30006.36.txt</M>
+<M ID="31">D30006.37.txt</M>
+<M ID="32">D30006.38.txt</M>
+<M ID="33">D30006.39.txt</M>
+<M ID="34">D30006.4.txt</M>
+<M ID="35">D30006.5.txt</M>
+<M ID="36">D30006.6.txt</M>
+<M ID="37">D30006.7.txt</M>
+<M ID="38">D30006.8.txt</M>
+<M ID="39">D30006.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_6">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D30007.APW19981001.0312.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D30007.0.txt</M>
+<M ID="1">D30007.1.txt</M>
+<M ID="2">D30007.10.txt</M>
+<M ID="3">D30007.11.txt</M>
+<M ID="4">D30007.12.txt</M>
+<M ID="5">D30007.13.txt</M>
+<M ID="6">D30007.14.txt</M>
+<M ID="7">D30007.15.txt</M>
+<M ID="8">D30007.16.txt</M>
+<M ID="9">D30007.17.txt</M>
+<M ID="10">D30007.18.txt</M>
+<M ID="11">D30007.19.txt</M>
+<M ID="12">D30007.2.txt</M>
+<M ID="13">D30007.20.txt</M>
+<M ID="14">D30007.21.txt</M>
+<M ID="15">D30007.22.txt</M>
+<M ID="16">D30007.23.txt</M>
+<M ID="17">D30007.24.txt</M>
+<M ID="18">D30007.25.txt</M>
+<M ID="19">D30007.26.txt</M>
+<M ID="20">D30007.27.txt</M>
+<M ID="21">D30007.28.txt</M>
+<M ID="22">D30007.29.txt</M>
+<M ID="23">D30007.3.txt</M>
+<M ID="24">D30007.30.txt</M>
+<M ID="25">D30007.31.txt</M>
+<M ID="26">D30007.32.txt</M>
+<M ID="27">D30007.33.txt</M>
+<M ID="28">D30007.34.txt</M>
+<M ID="29">D30007.35.txt</M>
+<M ID="30">D30007.36.txt</M>
+<M ID="31">D30007.37.txt</M>
+<M ID="32">D30007.38.txt</M>
+<M ID="33">D30007.39.txt</M>
+<M ID="34">D30007.4.txt</M>
+<M ID="35">D30007.5.txt</M>
+<M ID="36">D30007.6.txt</M>
+<M ID="37">D30007.7.txt</M>
+<M ID="38">D30007.8.txt</M>
+<M ID="39">D30007.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_7">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D30008.APW19981004.0281.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D30008.0.txt</M>
+<M ID="1">D30008.1.txt</M>
+<M ID="2">D30008.10.txt</M>
+<M ID="3">D30008.11.txt</M>
+<M ID="4">D30008.12.txt</M>
+<M ID="5">D30008.13.txt</M>
+<M ID="6">D30008.14.txt</M>
+<M ID="7">D30008.15.txt</M>
+<M ID="8">D30008.16.txt</M>
+<M ID="9">D30008.17.txt</M>
+<M ID="10">D30008.18.txt</M>
+<M ID="11">D30008.19.txt</M>
+<M ID="12">D30008.2.txt</M>
+<M ID="13">D30008.20.txt</M>
+<M ID="14">D30008.21.txt</M>
+<M ID="15">D30008.22.txt</M>
+<M ID="16">D30008.23.txt</M>
+<M ID="17">D30008.24.txt</M>
+<M ID="18">D30008.25.txt</M>
+<M ID="19">D30008.26.txt</M>
+<M ID="20">D30008.27.txt</M>
+<M ID="21">D30008.28.txt</M>
+<M ID="22">D30008.29.txt</M>
+<M ID="23">D30008.3.txt</M>
+<M ID="24">D30008.30.txt</M>
+<M ID="25">D30008.31.txt</M>
+<M ID="26">D30008.32.txt</M>
+<M ID="27">D30008.33.txt</M>
+<M ID="28">D30008.34.txt</M>
+<M ID="29">D30008.35.txt</M>
+<M ID="30">D30008.36.txt</M>
+<M ID="31">D30008.37.txt</M>
+<M ID="32">D30008.38.txt</M>
+<M ID="33">D30008.39.txt</M>
+<M ID="34">D30008.4.txt</M>
+<M ID="35">D30008.5.txt</M>
+<M ID="36">D30008.6.txt</M>
+<M ID="37">D30008.7.txt</M>
+<M ID="38">D30008.8.txt</M>
+<M ID="39">D30008.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_8">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D30010.APW19981106.0273.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D30010.0.txt</M>
+<M ID="1">D30010.1.txt</M>
+<M ID="2">D30010.10.txt</M>
+<M ID="3">D30010.11.txt</M>
+<M ID="4">D30010.12.txt</M>
+<M ID="5">D30010.13.txt</M>
+<M ID="6">D30010.14.txt</M>
+<M ID="7">D30010.15.txt</M>
+<M ID="8">D30010.16.txt</M>
+<M ID="9">D30010.17.txt</M>
+<M ID="10">D30010.18.txt</M>
+<M ID="11">D30010.19.txt</M>
+<M ID="12">D30010.2.txt</M>
+<M ID="13">D30010.20.txt</M>
+<M ID="14">D30010.21.txt</M>
+<M ID="15">D30010.22.txt</M>
+<M ID="16">D30010.23.txt</M>
+<M ID="17">D30010.24.txt</M>
+<M ID="18">D30010.25.txt</M>
+<M ID="19">D30010.26.txt</M>
+<M ID="20">D30010.27.txt</M>
+<M ID="21">D30010.28.txt</M>
+<M ID="22">D30010.29.txt</M>
+<M ID="23">D30010.3.txt</M>
+<M ID="24">D30010.30.txt</M>
+<M ID="25">D30010.31.txt</M>
+<M ID="26">D30010.32.txt</M>
+<M ID="27">D30010.33.txt</M>
+<M ID="28">D30010.34.txt</M>
+<M ID="29">D30010.35.txt</M>
+<M ID="30">D30010.36.txt</M>
+<M ID="31">D30010.37.txt</M>
+<M ID="32">D30010.38.txt</M>
+<M ID="33">D30010.39.txt</M>
+<M ID="34">D30010.4.txt</M>
+<M ID="35">D30010.5.txt</M>
+<M ID="36">D30010.6.txt</M>
+<M ID="37">D30010.7.txt</M>
+<M ID="38">D30010.8.txt</M>
+<M ID="39">D30010.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_9">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D30011.APW19981001.0315.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D30011.0.txt</M>
+<M ID="1">D30011.1.txt</M>
+<M ID="2">D30011.10.txt</M>
+<M ID="3">D30011.11.txt</M>
+<M ID="4">D30011.12.txt</M>
+<M ID="5">D30011.13.txt</M>
+<M ID="6">D30011.14.txt</M>
+<M ID="7">D30011.15.txt</M>
+<M ID="8">D30011.16.txt</M>
+<M ID="9">D30011.17.txt</M>
+<M ID="10">D30011.18.txt</M>
+<M ID="11">D30011.19.txt</M>
+<M ID="12">D30011.2.txt</M>
+<M ID="13">D30011.20.txt</M>
+<M ID="14">D30011.21.txt</M>
+<M ID="15">D30011.22.txt</M>
+<M ID="16">D30011.23.txt</M>
+<M ID="17">D30011.24.txt</M>
+<M ID="18">D30011.25.txt</M>
+<M ID="19">D30011.26.txt</M>
+<M ID="20">D30011.27.txt</M>
+<M ID="21">D30011.28.txt</M>
+<M ID="22">D30011.29.txt</M>
+<M ID="23">D30011.3.txt</M>
+<M ID="24">D30011.30.txt</M>
+<M ID="25">D30011.31.txt</M>
+<M ID="26">D30011.32.txt</M>
+<M ID="27">D30011.33.txt</M>
+<M ID="28">D30011.34.txt</M>
+<M ID="29">D30011.35.txt</M>
+<M ID="30">D30011.36.txt</M>
+<M ID="31">D30011.37.txt</M>
+<M ID="32">D30011.38.txt</M>
+<M ID="33">D30011.39.txt</M>
+<M ID="34">D30011.4.txt</M>
+<M ID="35">D30011.5.txt</M>
+<M ID="36">D30011.6.txt</M>
+<M ID="37">D30011.7.txt</M>
+<M ID="38">D30011.8.txt</M>
+<M ID="39">D30011.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_10">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D30015.APW19981005.0205.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D30015.0.txt</M>
+<M ID="1">D30015.1.txt</M>
+<M ID="2">D30015.10.txt</M>
+<M ID="3">D30015.11.txt</M>
+<M ID="4">D30015.12.txt</M>
+<M ID="5">D30015.13.txt</M>
+<M ID="6">D30015.14.txt</M>
+<M ID="7">D30015.15.txt</M>
+<M ID="8">D30015.16.txt</M>
+<M ID="9">D30015.17.txt</M>
+<M ID="10">D30015.18.txt</M>
+<M ID="11">D30015.19.txt</M>
+<M ID="12">D30015.2.txt</M>
+<M ID="13">D30015.20.txt</M>
+<M ID="14">D30015.21.txt</M>
+<M ID="15">D30015.22.txt</M>
+<M ID="16">D30015.23.txt</M>
+<M ID="17">D30015.24.txt</M>
+<M ID="18">D30015.25.txt</M>
+<M ID="19">D30015.26.txt</M>
+<M ID="20">D30015.27.txt</M>
+<M ID="21">D30015.28.txt</M>
+<M ID="22">D30015.29.txt</M>
+<M ID="23">D30015.3.txt</M>
+<M ID="24">D30015.30.txt</M>
+<M ID="25">D30015.31.txt</M>
+<M ID="26">D30015.32.txt</M>
+<M ID="27">D30015.33.txt</M>
+<M ID="28">D30015.34.txt</M>
+<M ID="29">D30015.35.txt</M>
+<M ID="30">D30015.36.txt</M>
+<M ID="31">D30015.37.txt</M>
+<M ID="32">D30015.38.txt</M>
+<M ID="33">D30015.39.txt</M>
+<M ID="34">D30015.4.txt</M>
+<M ID="35">D30015.5.txt</M>
+<M ID="36">D30015.6.txt</M>
+<M ID="37">D30015.7.txt</M>
+<M ID="38">D30015.8.txt</M>
+<M ID="39">D30015.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_11">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D30017.APW19981010.0187.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D30017.0.txt</M>
+<M ID="1">D30017.1.txt</M>
+<M ID="2">D30017.10.txt</M>
+<M ID="3">D30017.11.txt</M>
+<M ID="4">D30017.12.txt</M>
+<M ID="5">D30017.13.txt</M>
+<M ID="6">D30017.14.txt</M>
+<M ID="7">D30017.15.txt</M>
+<M ID="8">D30017.16.txt</M>
+<M ID="9">D30017.17.txt</M>
+<M ID="10">D30017.18.txt</M>
+<M ID="11">D30017.19.txt</M>
+<M ID="12">D30017.2.txt</M>
+<M ID="13">D30017.20.txt</M>
+<M ID="14">D30017.21.txt</M>
+<M ID="15">D30017.22.txt</M>
+<M ID="16">D30017.23.txt</M>
+<M ID="17">D30017.24.txt</M>
+<M ID="18">D30017.25.txt</M>
+<M ID="19">D30017.26.txt</M>
+<M ID="20">D30017.27.txt</M>
+<M ID="21">D30017.28.txt</M>
+<M ID="22">D30017.29.txt</M>
+<M ID="23">D30017.3.txt</M>
+<M ID="24">D30017.30.txt</M>
+<M ID="25">D30017.31.txt</M>
+<M ID="26">D30017.32.txt</M>
+<M ID="27">D30017.33.txt</M>
+<M ID="28">D30017.34.txt</M>
+<M ID="29">D30017.35.txt</M>
+<M ID="30">D30017.36.txt</M>
+<M ID="31">D30017.37.txt</M>
+<M ID="32">D30017.38.txt</M>
+<M ID="33">D30017.39.txt</M>
+<M ID="34">D30017.4.txt</M>
+<M ID="35">D30017.5.txt</M>
+<M ID="36">D30017.6.txt</M>
+<M ID="37">D30017.7.txt</M>
+<M ID="38">D30017.8.txt</M>
+<M ID="39">D30017.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_12">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D30020.APW19981002.0557.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D30020.0.txt</M>
+<M ID="1">D30020.1.txt</M>
+<M ID="2">D30020.10.txt</M>
+<M ID="3">D30020.11.txt</M>
+<M ID="4">D30020.12.txt</M>
+<M ID="5">D30020.13.txt</M>
+<M ID="6">D30020.14.txt</M>
+<M ID="7">D30020.15.txt</M>
+<M ID="8">D30020.16.txt</M>
+<M ID="9">D30020.17.txt</M>
+<M ID="10">D30020.18.txt</M>
+<M ID="11">D30020.19.txt</M>
+<M ID="12">D30020.2.txt</M>
+<M ID="13">D30020.20.txt</M>
+<M ID="14">D30020.21.txt</M>
+<M ID="15">D30020.22.txt</M>
+<M ID="16">D30020.23.txt</M>
+<M ID="17">D30020.24.txt</M>
+<M ID="18">D30020.25.txt</M>
+<M ID="19">D30020.26.txt</M>
+<M ID="20">D30020.27.txt</M>
+<M ID="21">D30020.28.txt</M>
+<M ID="22">D30020.29.txt</M>
+<M ID="23">D30020.3.txt</M>
+<M ID="24">D30020.30.txt</M>
+<M ID="25">D30020.31.txt</M>
+<M ID="26">D30020.32.txt</M>
+<M ID="27">D30020.33.txt</M>
+<M ID="28">D30020.34.txt</M>
+<M ID="29">D30020.35.txt</M>
+<M ID="30">D30020.36.txt</M>
+<M ID="31">D30020.37.txt</M>
+<M ID="32">D30020.38.txt</M>
+<M ID="33">D30020.39.txt</M>
+<M ID="34">D30020.4.txt</M>
+<M ID="35">D30020.5.txt</M>
+<M ID="36">D30020.6.txt</M>
+<M ID="37">D30020.7.txt</M>
+<M ID="38">D30020.8.txt</M>
+<M ID="39">D30020.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_13">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D30022.APW19981005.0231.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D30022.0.txt</M>
+<M ID="1">D30022.1.txt</M>
+<M ID="2">D30022.10.txt</M>
+<M ID="3">D30022.11.txt</M>
+<M ID="4">D30022.12.txt</M>
+<M ID="5">D30022.13.txt</M>
+<M ID="6">D30022.14.txt</M>
+<M ID="7">D30022.15.txt</M>
+<M ID="8">D30022.16.txt</M>
+<M ID="9">D30022.17.txt</M>
+<M ID="10">D30022.18.txt</M>
+<M ID="11">D30022.19.txt</M>
+<M ID="12">D30022.2.txt</M>
+<M ID="13">D30022.20.txt</M>
+<M ID="14">D30022.21.txt</M>
+<M ID="15">D30022.22.txt</M>
+<M ID="16">D30022.23.txt</M>
+<M ID="17">D30022.24.txt</M>
+<M ID="18">D30022.25.txt</M>
+<M ID="19">D30022.26.txt</M>
+<M ID="20">D30022.27.txt</M>
+<M ID="21">D30022.28.txt</M>
+<M ID="22">D30022.29.txt</M>
+<M ID="23">D30022.3.txt</M>
+<M ID="24">D30022.30.txt</M>
+<M ID="25">D30022.31.txt</M>
+<M ID="26">D30022.32.txt</M>
+<M ID="27">D30022.33.txt</M>
+<M ID="28">D30022.34.txt</M>
+<M ID="29">D30022.35.txt</M>
+<M ID="30">D30022.36.txt</M>
+<M ID="31">D30022.37.txt</M>
+<M ID="32">D30022.38.txt</M>
+<M ID="33">D30022.39.txt</M>
+<M ID="34">D30022.4.txt</M>
+<M ID="35">D30022.5.txt</M>
+<M ID="36">D30022.6.txt</M>
+<M ID="37">D30022.7.txt</M>
+<M ID="38">D30022.8.txt</M>
+<M ID="39">D30022.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_14">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D30024.NYT19981007.0464.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D30024.0.txt</M>
+<M ID="1">D30024.1.txt</M>
+<M ID="2">D30024.10.txt</M>
+<M ID="3">D30024.11.txt</M>
+<M ID="4">D30024.12.txt</M>
+<M ID="5">D30024.13.txt</M>
+<M ID="6">D30024.14.txt</M>
+<M ID="7">D30024.15.txt</M>
+<M ID="8">D30024.16.txt</M>
+<M ID="9">D30024.17.txt</M>
+<M ID="10">D30024.18.txt</M>
+<M ID="11">D30024.19.txt</M>
+<M ID="12">D30024.2.txt</M>
+<M ID="13">D30024.20.txt</M>
+<M ID="14">D30024.21.txt</M>
+<M ID="15">D30024.22.txt</M>
+<M ID="16">D30024.23.txt</M>
+<M ID="17">D30024.24.txt</M>
+<M ID="18">D30024.25.txt</M>
+<M ID="19">D30024.26.txt</M>
+<M ID="20">D30024.27.txt</M>
+<M ID="21">D30024.28.txt</M>
+<M ID="22">D30024.29.txt</M>
+<M ID="23">D30024.3.txt</M>
+<M ID="24">D30024.30.txt</M>
+<M ID="25">D30024.31.txt</M>
+<M ID="26">D30024.32.txt</M>
+<M ID="27">D30024.33.txt</M>
+<M ID="28">D30024.34.txt</M>
+<M ID="29">D30024.35.txt</M>
+<M ID="30">D30024.36.txt</M>
+<M ID="31">D30024.37.txt</M>
+<M ID="32">D30024.38.txt</M>
+<M ID="33">D30024.39.txt</M>
+<M ID="34">D30024.4.txt</M>
+<M ID="35">D30024.5.txt</M>
+<M ID="36">D30024.6.txt</M>
+<M ID="37">D30024.7.txt</M>
+<M ID="38">D30024.8.txt</M>
+<M ID="39">D30024.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_15">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D30026.NYT19981101.0082.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D30026.0.txt</M>
+<M ID="1">D30026.1.txt</M>
+<M ID="2">D30026.10.txt</M>
+<M ID="3">D30026.11.txt</M>
+<M ID="4">D30026.12.txt</M>
+<M ID="5">D30026.13.txt</M>
+<M ID="6">D30026.14.txt</M>
+<M ID="7">D30026.15.txt</M>
+<M ID="8">D30026.16.txt</M>
+<M ID="9">D30026.17.txt</M>
+<M ID="10">D30026.18.txt</M>
+<M ID="11">D30026.19.txt</M>
+<M ID="12">D30026.2.txt</M>
+<M ID="13">D30026.20.txt</M>
+<M ID="14">D30026.21.txt</M>
+<M ID="15">D30026.22.txt</M>
+<M ID="16">D30026.23.txt</M>
+<M ID="17">D30026.24.txt</M>
+<M ID="18">D30026.25.txt</M>
+<M ID="19">D30026.26.txt</M>
+<M ID="20">D30026.27.txt</M>
+<M ID="21">D30026.28.txt</M>
+<M ID="22">D30026.29.txt</M>
+<M ID="23">D30026.3.txt</M>
+<M ID="24">D30026.30.txt</M>
+<M ID="25">D30026.31.txt</M>
+<M ID="26">D30026.32.txt</M>
+<M ID="27">D30026.33.txt</M>
+<M ID="28">D30026.34.txt</M>
+<M ID="29">D30026.35.txt</M>
+<M ID="30">D30026.36.txt</M>
+<M ID="31">D30026.37.txt</M>
+<M ID="32">D30026.38.txt</M>
+<M ID="33">D30026.39.txt</M>
+<M ID="34">D30026.4.txt</M>
+<M ID="35">D30026.5.txt</M>
+<M ID="36">D30026.6.txt</M>
+<M ID="37">D30026.7.txt</M>
+<M ID="38">D30026.8.txt</M>
+<M ID="39">D30026.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_16">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D30027.APW19981001.1177.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D30027.0.txt</M>
+<M ID="1">D30027.1.txt</M>
+<M ID="2">D30027.10.txt</M>
+<M ID="3">D30027.11.txt</M>
+<M ID="4">D30027.12.txt</M>
+<M ID="5">D30027.13.txt</M>
+<M ID="6">D30027.14.txt</M>
+<M ID="7">D30027.15.txt</M>
+<M ID="8">D30027.16.txt</M>
+<M ID="9">D30027.17.txt</M>
+<M ID="10">D30027.18.txt</M>
+<M ID="11">D30027.19.txt</M>
+<M ID="12">D30027.2.txt</M>
+<M ID="13">D30027.20.txt</M>
+<M ID="14">D30027.21.txt</M>
+<M ID="15">D30027.22.txt</M>
+<M ID="16">D30027.23.txt</M>
+<M ID="17">D30027.24.txt</M>
+<M ID="18">D30027.25.txt</M>
+<M ID="19">D30027.26.txt</M>
+<M ID="20">D30027.27.txt</M>
+<M ID="21">D30027.28.txt</M>
+<M ID="22">D30027.29.txt</M>
+<M ID="23">D30027.3.txt</M>
+<M ID="24">D30027.30.txt</M>
+<M ID="25">D30027.31.txt</M>
+<M ID="26">D30027.32.txt</M>
+<M ID="27">D30027.33.txt</M>
+<M ID="28">D30027.34.txt</M>
+<M ID="29">D30027.35.txt</M>
+<M ID="30">D30027.36.txt</M>
+<M ID="31">D30027.37.txt</M>
+<M ID="32">D30027.38.txt</M>
+<M ID="33">D30027.39.txt</M>
+<M ID="34">D30027.4.txt</M>
+<M ID="35">D30027.5.txt</M>
+<M ID="36">D30027.6.txt</M>
+<M ID="37">D30027.7.txt</M>
+<M ID="38">D30027.8.txt</M>
+<M ID="39">D30027.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_17">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D30028.APW19981001.0539.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D30028.0.txt</M>
+<M ID="1">D30028.1.txt</M>
+<M ID="2">D30028.10.txt</M>
+<M ID="3">D30028.11.txt</M>
+<M ID="4">D30028.12.txt</M>
+<M ID="5">D30028.13.txt</M>
+<M ID="6">D30028.14.txt</M>
+<M ID="7">D30028.15.txt</M>
+<M ID="8">D30028.16.txt</M>
+<M ID="9">D30028.17.txt</M>
+<M ID="10">D30028.18.txt</M>
+<M ID="11">D30028.19.txt</M>
+<M ID="12">D30028.2.txt</M>
+<M ID="13">D30028.20.txt</M>
+<M ID="14">D30028.21.txt</M>
+<M ID="15">D30028.22.txt</M>
+<M ID="16">D30028.23.txt</M>
+<M ID="17">D30028.24.txt</M>
+<M ID="18">D30028.25.txt</M>
+<M ID="19">D30028.26.txt</M>
+<M ID="20">D30028.27.txt</M>
+<M ID="21">D30028.28.txt</M>
+<M ID="22">D30028.29.txt</M>
+<M ID="23">D30028.3.txt</M>
+<M ID="24">D30028.30.txt</M>
+<M ID="25">D30028.31.txt</M>
+<M ID="26">D30028.32.txt</M>
+<M ID="27">D30028.33.txt</M>
+<M ID="28">D30028.34.txt</M>
+<M ID="29">D30028.35.txt</M>
+<M ID="30">D30028.36.txt</M>
+<M ID="31">D30028.37.txt</M>
+<M ID="32">D30028.38.txt</M>
+<M ID="33">D30028.39.txt</M>
+<M ID="34">D30028.4.txt</M>
+<M ID="35">D30028.5.txt</M>
+<M ID="36">D30028.6.txt</M>
+<M ID="37">D30028.7.txt</M>
+<M ID="38">D30028.8.txt</M>
+<M ID="39">D30028.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_18">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D30029.APW19981224.0814.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D30029.0.txt</M>
+<M ID="1">D30029.1.txt</M>
+<M ID="2">D30029.10.txt</M>
+<M ID="3">D30029.11.txt</M>
+<M ID="4">D30029.12.txt</M>
+<M ID="5">D30029.13.txt</M>
+<M ID="6">D30029.14.txt</M>
+<M ID="7">D30029.15.txt</M>
+<M ID="8">D30029.16.txt</M>
+<M ID="9">D30029.17.txt</M>
+<M ID="10">D30029.18.txt</M>
+<M ID="11">D30029.19.txt</M>
+<M ID="12">D30029.2.txt</M>
+<M ID="13">D30029.20.txt</M>
+<M ID="14">D30029.21.txt</M>
+<M ID="15">D30029.22.txt</M>
+<M ID="16">D30029.23.txt</M>
+<M ID="17">D30029.24.txt</M>
+<M ID="18">D30029.25.txt</M>
+<M ID="19">D30029.26.txt</M>
+<M ID="20">D30029.27.txt</M>
+<M ID="21">D30029.28.txt</M>
+<M ID="22">D30029.29.txt</M>
+<M ID="23">D30029.3.txt</M>
+<M ID="24">D30029.30.txt</M>
+<M ID="25">D30029.31.txt</M>
+<M ID="26">D30029.32.txt</M>
+<M ID="27">D30029.33.txt</M>
+<M ID="28">D30029.34.txt</M>
+<M ID="29">D30029.35.txt</M>
+<M ID="30">D30029.36.txt</M>
+<M ID="31">D30029.37.txt</M>
+<M ID="32">D30029.38.txt</M>
+<M ID="33">D30029.39.txt</M>
+<M ID="34">D30029.4.txt</M>
+<M ID="35">D30029.5.txt</M>
+<M ID="36">D30029.6.txt</M>
+<M ID="37">D30029.7.txt</M>
+<M ID="38">D30029.8.txt</M>
+<M ID="39">D30029.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_19">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D30031.APW19981207.0418.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D30031.0.txt</M>
+<M ID="1">D30031.1.txt</M>
+<M ID="2">D30031.10.txt</M>
+<M ID="3">D30031.11.txt</M>
+<M ID="4">D30031.12.txt</M>
+<M ID="5">D30031.13.txt</M>
+<M ID="6">D30031.14.txt</M>
+<M ID="7">D30031.15.txt</M>
+<M ID="8">D30031.16.txt</M>
+<M ID="9">D30031.17.txt</M>
+<M ID="10">D30031.18.txt</M>
+<M ID="11">D30031.19.txt</M>
+<M ID="12">D30031.2.txt</M>
+<M ID="13">D30031.20.txt</M>
+<M ID="14">D30031.21.txt</M>
+<M ID="15">D30031.22.txt</M>
+<M ID="16">D30031.23.txt</M>
+<M ID="17">D30031.24.txt</M>
+<M ID="18">D30031.25.txt</M>
+<M ID="19">D30031.26.txt</M>
+<M ID="20">D30031.27.txt</M>
+<M ID="21">D30031.28.txt</M>
+<M ID="22">D30031.29.txt</M>
+<M ID="23">D30031.3.txt</M>
+<M ID="24">D30031.30.txt</M>
+<M ID="25">D30031.31.txt</M>
+<M ID="26">D30031.32.txt</M>
+<M ID="27">D30031.33.txt</M>
+<M ID="28">D30031.34.txt</M>
+<M ID="29">D30031.35.txt</M>
+<M ID="30">D30031.36.txt</M>
+<M ID="31">D30031.37.txt</M>
+<M ID="32">D30031.38.txt</M>
+<M ID="33">D30031.39.txt</M>
+<M ID="34">D30031.4.txt</M>
+<M ID="35">D30031.5.txt</M>
+<M ID="36">D30031.6.txt</M>
+<M ID="37">D30031.7.txt</M>
+<M ID="38">D30031.8.txt</M>
+<M ID="39">D30031.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_20">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D30033.APW19981127.0244.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D30033.0.txt</M>
+<M ID="1">D30033.1.txt</M>
+<M ID="2">D30033.10.txt</M>
+<M ID="3">D30033.11.txt</M>
+<M ID="4">D30033.12.txt</M>
+<M ID="5">D30033.13.txt</M>
+<M ID="6">D30033.14.txt</M>
+<M ID="7">D30033.15.txt</M>
+<M ID="8">D30033.16.txt</M>
+<M ID="9">D30033.17.txt</M>
+<M ID="10">D30033.18.txt</M>
+<M ID="11">D30033.19.txt</M>
+<M ID="12">D30033.2.txt</M>
+<M ID="13">D30033.20.txt</M>
+<M ID="14">D30033.21.txt</M>
+<M ID="15">D30033.22.txt</M>
+<M ID="16">D30033.23.txt</M>
+<M ID="17">D30033.24.txt</M>
+<M ID="18">D30033.25.txt</M>
+<M ID="19">D30033.26.txt</M>
+<M ID="20">D30033.27.txt</M>
+<M ID="21">D30033.28.txt</M>
+<M ID="22">D30033.29.txt</M>
+<M ID="23">D30033.3.txt</M>
+<M ID="24">D30033.30.txt</M>
+<M ID="25">D30033.31.txt</M>
+<M ID="26">D30033.32.txt</M>
+<M ID="27">D30033.33.txt</M>
+<M ID="28">D30033.34.txt</M>
+<M ID="29">D30033.35.txt</M>
+<M ID="30">D30033.36.txt</M>
+<M ID="31">D30033.37.txt</M>
+<M ID="32">D30033.38.txt</M>
+<M ID="33">D30033.39.txt</M>
+<M ID="34">D30033.4.txt</M>
+<M ID="35">D30033.5.txt</M>
+<M ID="36">D30033.6.txt</M>
+<M ID="37">D30033.7.txt</M>
+<M ID="38">D30033.8.txt</M>
+<M ID="39">D30033.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_21">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D30034.APW19981124.0554.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D30034.0.txt</M>
+<M ID="1">D30034.1.txt</M>
+<M ID="2">D30034.10.txt</M>
+<M ID="3">D30034.11.txt</M>
+<M ID="4">D30034.12.txt</M>
+<M ID="5">D30034.13.txt</M>
+<M ID="6">D30034.14.txt</M>
+<M ID="7">D30034.15.txt</M>
+<M ID="8">D30034.16.txt</M>
+<M ID="9">D30034.17.txt</M>
+<M ID="10">D30034.18.txt</M>
+<M ID="11">D30034.19.txt</M>
+<M ID="12">D30034.2.txt</M>
+<M ID="13">D30034.20.txt</M>
+<M ID="14">D30034.21.txt</M>
+<M ID="15">D30034.22.txt</M>
+<M ID="16">D30034.23.txt</M>
+<M ID="17">D30034.24.txt</M>
+<M ID="18">D30034.25.txt</M>
+<M ID="19">D30034.26.txt</M>
+<M ID="20">D30034.27.txt</M>
+<M ID="21">D30034.28.txt</M>
+<M ID="22">D30034.29.txt</M>
+<M ID="23">D30034.3.txt</M>
+<M ID="24">D30034.30.txt</M>
+<M ID="25">D30034.31.txt</M>
+<M ID="26">D30034.32.txt</M>
+<M ID="27">D30034.33.txt</M>
+<M ID="28">D30034.34.txt</M>
+<M ID="29">D30034.35.txt</M>
+<M ID="30">D30034.36.txt</M>
+<M ID="31">D30034.37.txt</M>
+<M ID="32">D30034.38.txt</M>
+<M ID="33">D30034.39.txt</M>
+<M ID="34">D30034.4.txt</M>
+<M ID="35">D30034.5.txt</M>
+<M ID="36">D30034.6.txt</M>
+<M ID="37">D30034.7.txt</M>
+<M ID="38">D30034.8.txt</M>
+<M ID="39">D30034.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_22">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D30036.APW19981006.0833.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D30036.0.txt</M>
+<M ID="1">D30036.1.txt</M>
+<M ID="2">D30036.10.txt</M>
+<M ID="3">D30036.11.txt</M>
+<M ID="4">D30036.12.txt</M>
+<M ID="5">D30036.13.txt</M>
+<M ID="6">D30036.14.txt</M>
+<M ID="7">D30036.15.txt</M>
+<M ID="8">D30036.16.txt</M>
+<M ID="9">D30036.17.txt</M>
+<M ID="10">D30036.18.txt</M>
+<M ID="11">D30036.19.txt</M>
+<M ID="12">D30036.2.txt</M>
+<M ID="13">D30036.20.txt</M>
+<M ID="14">D30036.21.txt</M>
+<M ID="15">D30036.22.txt</M>
+<M ID="16">D30036.23.txt</M>
+<M ID="17">D30036.24.txt</M>
+<M ID="18">D30036.25.txt</M>
+<M ID="19">D30036.26.txt</M>
+<M ID="20">D30036.27.txt</M>
+<M ID="21">D30036.28.txt</M>
+<M ID="22">D30036.29.txt</M>
+<M ID="23">D30036.3.txt</M>
+<M ID="24">D30036.30.txt</M>
+<M ID="25">D30036.31.txt</M>
+<M ID="26">D30036.32.txt</M>
+<M ID="27">D30036.33.txt</M>
+<M ID="28">D30036.34.txt</M>
+<M ID="29">D30036.35.txt</M>
+<M ID="30">D30036.36.txt</M>
+<M ID="31">D30036.37.txt</M>
+<M ID="32">D30036.38.txt</M>
+<M ID="33">D30036.39.txt</M>
+<M ID="34">D30036.4.txt</M>
+<M ID="35">D30036.5.txt</M>
+<M ID="36">D30036.6.txt</M>
+<M ID="37">D30036.7.txt</M>
+<M ID="38">D30036.8.txt</M>
+<M ID="39">D30036.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_23">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D30037.APW19981004.0138.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D30037.0.txt</M>
+<M ID="1">D30037.1.txt</M>
+<M ID="2">D30037.10.txt</M>
+<M ID="3">D30037.11.txt</M>
+<M ID="4">D30037.12.txt</M>
+<M ID="5">D30037.13.txt</M>
+<M ID="6">D30037.14.txt</M>
+<M ID="7">D30037.15.txt</M>
+<M ID="8">D30037.16.txt</M>
+<M ID="9">D30037.17.txt</M>
+<M ID="10">D30037.18.txt</M>
+<M ID="11">D30037.19.txt</M>
+<M ID="12">D30037.2.txt</M>
+<M ID="13">D30037.20.txt</M>
+<M ID="14">D30037.21.txt</M>
+<M ID="15">D30037.22.txt</M>
+<M ID="16">D30037.23.txt</M>
+<M ID="17">D30037.24.txt</M>
+<M ID="18">D30037.25.txt</M>
+<M ID="19">D30037.26.txt</M>
+<M ID="20">D30037.27.txt</M>
+<M ID="21">D30037.28.txt</M>
+<M ID="22">D30037.29.txt</M>
+<M ID="23">D30037.3.txt</M>
+<M ID="24">D30037.30.txt</M>
+<M ID="25">D30037.31.txt</M>
+<M ID="26">D30037.32.txt</M>
+<M ID="27">D30037.33.txt</M>
+<M ID="28">D30037.34.txt</M>
+<M ID="29">D30037.35.txt</M>
+<M ID="30">D30037.36.txt</M>
+<M ID="31">D30037.37.txt</M>
+<M ID="32">D30037.38.txt</M>
+<M ID="33">D30037.39.txt</M>
+<M ID="34">D30037.4.txt</M>
+<M ID="35">D30037.5.txt</M>
+<M ID="36">D30037.6.txt</M>
+<M ID="37">D30037.7.txt</M>
+<M ID="38">D30037.8.txt</M>
+<M ID="39">D30037.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_24">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D30038.APW19981211.0352.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D30038.0.txt</M>
+<M ID="1">D30038.1.txt</M>
+<M ID="2">D30038.10.txt</M>
+<M ID="3">D30038.11.txt</M>
+<M ID="4">D30038.12.txt</M>
+<M ID="5">D30038.13.txt</M>
+<M ID="6">D30038.14.txt</M>
+<M ID="7">D30038.15.txt</M>
+<M ID="8">D30038.16.txt</M>
+<M ID="9">D30038.17.txt</M>
+<M ID="10">D30038.18.txt</M>
+<M ID="11">D30038.19.txt</M>
+<M ID="12">D30038.2.txt</M>
+<M ID="13">D30038.20.txt</M>
+<M ID="14">D30038.21.txt</M>
+<M ID="15">D30038.22.txt</M>
+<M ID="16">D30038.23.txt</M>
+<M ID="17">D30038.24.txt</M>
+<M ID="18">D30038.25.txt</M>
+<M ID="19">D30038.26.txt</M>
+<M ID="20">D30038.27.txt</M>
+<M ID="21">D30038.28.txt</M>
+<M ID="22">D30038.29.txt</M>
+<M ID="23">D30038.3.txt</M>
+<M ID="24">D30038.30.txt</M>
+<M ID="25">D30038.31.txt</M>
+<M ID="26">D30038.32.txt</M>
+<M ID="27">D30038.33.txt</M>
+<M ID="28">D30038.34.txt</M>
+<M ID="29">D30038.35.txt</M>
+<M ID="30">D30038.36.txt</M>
+<M ID="31">D30038.37.txt</M>
+<M ID="32">D30038.38.txt</M>
+<M ID="33">D30038.39.txt</M>
+<M ID="34">D30038.4.txt</M>
+<M ID="35">D30038.5.txt</M>
+<M ID="36">D30038.6.txt</M>
+<M ID="37">D30038.7.txt</M>
+<M ID="38">D30038.8.txt</M>
+<M ID="39">D30038.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_25">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D30040.APW19981119.1180.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D30040.0.txt</M>
+<M ID="1">D30040.1.txt</M>
+<M ID="2">D30040.10.txt</M>
+<M ID="3">D30040.11.txt</M>
+<M ID="4">D30040.12.txt</M>
+<M ID="5">D30040.13.txt</M>
+<M ID="6">D30040.14.txt</M>
+<M ID="7">D30040.15.txt</M>
+<M ID="8">D30040.16.txt</M>
+<M ID="9">D30040.17.txt</M>
+<M ID="10">D30040.18.txt</M>
+<M ID="11">D30040.19.txt</M>
+<M ID="12">D30040.2.txt</M>
+<M ID="13">D30040.20.txt</M>
+<M ID="14">D30040.21.txt</M>
+<M ID="15">D30040.22.txt</M>
+<M ID="16">D30040.23.txt</M>
+<M ID="17">D30040.24.txt</M>
+<M ID="18">D30040.25.txt</M>
+<M ID="19">D30040.26.txt</M>
+<M ID="20">D30040.27.txt</M>
+<M ID="21">D30040.28.txt</M>
+<M ID="22">D30040.29.txt</M>
+<M ID="23">D30040.3.txt</M>
+<M ID="24">D30040.30.txt</M>
+<M ID="25">D30040.31.txt</M>
+<M ID="26">D30040.32.txt</M>
+<M ID="27">D30040.33.txt</M>
+<M ID="28">D30040.34.txt</M>
+<M ID="29">D30040.35.txt</M>
+<M ID="30">D30040.36.txt</M>
+<M ID="31">D30040.37.txt</M>
+<M ID="32">D30040.38.txt</M>
+<M ID="33">D30040.39.txt</M>
+<M ID="34">D30040.4.txt</M>
+<M ID="35">D30040.5.txt</M>
+<M ID="36">D30040.6.txt</M>
+<M ID="37">D30040.7.txt</M>
+<M ID="38">D30040.8.txt</M>
+<M ID="39">D30040.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_26">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D30042.APW19981019.0307.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D30042.0.txt</M>
+<M ID="1">D30042.1.txt</M>
+<M ID="2">D30042.10.txt</M>
+<M ID="3">D30042.11.txt</M>
+<M ID="4">D30042.12.txt</M>
+<M ID="5">D30042.13.txt</M>
+<M ID="6">D30042.14.txt</M>
+<M ID="7">D30042.15.txt</M>
+<M ID="8">D30042.16.txt</M>
+<M ID="9">D30042.17.txt</M>
+<M ID="10">D30042.18.txt</M>
+<M ID="11">D30042.19.txt</M>
+<M ID="12">D30042.2.txt</M>
+<M ID="13">D30042.20.txt</M>
+<M ID="14">D30042.21.txt</M>
+<M ID="15">D30042.22.txt</M>
+<M ID="16">D30042.23.txt</M>
+<M ID="17">D30042.24.txt</M>
+<M ID="18">D30042.25.txt</M>
+<M ID="19">D30042.26.txt</M>
+<M ID="20">D30042.27.txt</M>
+<M ID="21">D30042.28.txt</M>
+<M ID="22">D30042.29.txt</M>
+<M ID="23">D30042.3.txt</M>
+<M ID="24">D30042.30.txt</M>
+<M ID="25">D30042.31.txt</M>
+<M ID="26">D30042.32.txt</M>
+<M ID="27">D30042.33.txt</M>
+<M ID="28">D30042.34.txt</M>
+<M ID="29">D30042.35.txt</M>
+<M ID="30">D30042.36.txt</M>
+<M ID="31">D30042.37.txt</M>
+<M ID="32">D30042.38.txt</M>
+<M ID="33">D30042.39.txt</M>
+<M ID="34">D30042.4.txt</M>
+<M ID="35">D30042.5.txt</M>
+<M ID="36">D30042.6.txt</M>
+<M ID="37">D30042.7.txt</M>
+<M ID="38">D30042.8.txt</M>
+<M ID="39">D30042.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_27">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D30044.APW19981114.0575.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D30044.0.txt</M>
+<M ID="1">D30044.1.txt</M>
+<M ID="2">D30044.10.txt</M>
+<M ID="3">D30044.11.txt</M>
+<M ID="4">D30044.12.txt</M>
+<M ID="5">D30044.13.txt</M>
+<M ID="6">D30044.14.txt</M>
+<M ID="7">D30044.15.txt</M>
+<M ID="8">D30044.16.txt</M>
+<M ID="9">D30044.17.txt</M>
+<M ID="10">D30044.18.txt</M>
+<M ID="11">D30044.19.txt</M>
+<M ID="12">D30044.2.txt</M>
+<M ID="13">D30044.20.txt</M>
+<M ID="14">D30044.21.txt</M>
+<M ID="15">D30044.22.txt</M>
+<M ID="16">D30044.23.txt</M>
+<M ID="17">D30044.24.txt</M>
+<M ID="18">D30044.25.txt</M>
+<M ID="19">D30044.26.txt</M>
+<M ID="20">D30044.27.txt</M>
+<M ID="21">D30044.28.txt</M>
+<M ID="22">D30044.29.txt</M>
+<M ID="23">D30044.3.txt</M>
+<M ID="24">D30044.30.txt</M>
+<M ID="25">D30044.31.txt</M>
+<M ID="26">D30044.32.txt</M>
+<M ID="27">D30044.33.txt</M>
+<M ID="28">D30044.34.txt</M>
+<M ID="29">D30044.35.txt</M>
+<M ID="30">D30044.36.txt</M>
+<M ID="31">D30044.37.txt</M>
+<M ID="32">D30044.38.txt</M>
+<M ID="33">D30044.39.txt</M>
+<M ID="34">D30044.4.txt</M>
+<M ID="35">D30044.5.txt</M>
+<M ID="36">D30044.6.txt</M>
+<M ID="37">D30044.7.txt</M>
+<M ID="38">D30044.8.txt</M>
+<M ID="39">D30044.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_28">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D30045.NYT19981125.0417.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D30045.0.txt</M>
+<M ID="1">D30045.1.txt</M>
+<M ID="2">D30045.10.txt</M>
+<M ID="3">D30045.11.txt</M>
+<M ID="4">D30045.12.txt</M>
+<M ID="5">D30045.13.txt</M>
+<M ID="6">D30045.14.txt</M>
+<M ID="7">D30045.15.txt</M>
+<M ID="8">D30045.16.txt</M>
+<M ID="9">D30045.17.txt</M>
+<M ID="10">D30045.18.txt</M>
+<M ID="11">D30045.19.txt</M>
+<M ID="12">D30045.2.txt</M>
+<M ID="13">D30045.20.txt</M>
+<M ID="14">D30045.21.txt</M>
+<M ID="15">D30045.22.txt</M>
+<M ID="16">D30045.23.txt</M>
+<M ID="17">D30045.24.txt</M>
+<M ID="18">D30045.25.txt</M>
+<M ID="19">D30045.26.txt</M>
+<M ID="20">D30045.27.txt</M>
+<M ID="21">D30045.28.txt</M>
+<M ID="22">D30045.29.txt</M>
+<M ID="23">D30045.3.txt</M>
+<M ID="24">D30045.30.txt</M>
+<M ID="25">D30045.31.txt</M>
+<M ID="26">D30045.32.txt</M>
+<M ID="27">D30045.33.txt</M>
+<M ID="28">D30045.34.txt</M>
+<M ID="29">D30045.35.txt</M>
+<M ID="30">D30045.36.txt</M>
+<M ID="31">D30045.37.txt</M>
+<M ID="32">D30045.38.txt</M>
+<M ID="33">D30045.39.txt</M>
+<M ID="34">D30045.4.txt</M>
+<M ID="35">D30045.5.txt</M>
+<M ID="36">D30045.6.txt</M>
+<M ID="37">D30045.7.txt</M>
+<M ID="38">D30045.8.txt</M>
+<M ID="39">D30045.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_29">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D30046.NYT19981217.0394.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D30046.0.txt</M>
+<M ID="1">D30046.1.txt</M>
+<M ID="2">D30046.10.txt</M>
+<M ID="3">D30046.11.txt</M>
+<M ID="4">D30046.12.txt</M>
+<M ID="5">D30046.13.txt</M>
+<M ID="6">D30046.14.txt</M>
+<M ID="7">D30046.15.txt</M>
+<M ID="8">D30046.16.txt</M>
+<M ID="9">D30046.17.txt</M>
+<M ID="10">D30046.18.txt</M>
+<M ID="11">D30046.19.txt</M>
+<M ID="12">D30046.2.txt</M>
+<M ID="13">D30046.20.txt</M>
+<M ID="14">D30046.21.txt</M>
+<M ID="15">D30046.22.txt</M>
+<M ID="16">D30046.23.txt</M>
+<M ID="17">D30046.24.txt</M>
+<M ID="18">D30046.25.txt</M>
+<M ID="19">D30046.26.txt</M>
+<M ID="20">D30046.27.txt</M>
+<M ID="21">D30046.28.txt</M>
+<M ID="22">D30046.29.txt</M>
+<M ID="23">D30046.3.txt</M>
+<M ID="24">D30046.30.txt</M>
+<M ID="25">D30046.31.txt</M>
+<M ID="26">D30046.32.txt</M>
+<M ID="27">D30046.33.txt</M>
+<M ID="28">D30046.34.txt</M>
+<M ID="29">D30046.35.txt</M>
+<M ID="30">D30046.36.txt</M>
+<M ID="31">D30046.37.txt</M>
+<M ID="32">D30046.38.txt</M>
+<M ID="33">D30046.39.txt</M>
+<M ID="34">D30046.4.txt</M>
+<M ID="35">D30046.5.txt</M>
+<M ID="36">D30046.6.txt</M>
+<M ID="37">D30046.7.txt</M>
+<M ID="38">D30046.8.txt</M>
+<M ID="39">D30046.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_30">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D30047.APW19981119.0252.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D30047.0.txt</M>
+<M ID="1">D30047.1.txt</M>
+<M ID="2">D30047.10.txt</M>
+<M ID="3">D30047.11.txt</M>
+<M ID="4">D30047.12.txt</M>
+<M ID="5">D30047.13.txt</M>
+<M ID="6">D30047.14.txt</M>
+<M ID="7">D30047.15.txt</M>
+<M ID="8">D30047.16.txt</M>
+<M ID="9">D30047.17.txt</M>
+<M ID="10">D30047.18.txt</M>
+<M ID="11">D30047.19.txt</M>
+<M ID="12">D30047.2.txt</M>
+<M ID="13">D30047.20.txt</M>
+<M ID="14">D30047.21.txt</M>
+<M ID="15">D30047.22.txt</M>
+<M ID="16">D30047.23.txt</M>
+<M ID="17">D30047.24.txt</M>
+<M ID="18">D30047.25.txt</M>
+<M ID="19">D30047.26.txt</M>
+<M ID="20">D30047.27.txt</M>
+<M ID="21">D30047.28.txt</M>
+<M ID="22">D30047.29.txt</M>
+<M ID="23">D30047.3.txt</M>
+<M ID="24">D30047.30.txt</M>
+<M ID="25">D30047.31.txt</M>
+<M ID="26">D30047.32.txt</M>
+<M ID="27">D30047.33.txt</M>
+<M ID="28">D30047.34.txt</M>
+<M ID="29">D30047.35.txt</M>
+<M ID="30">D30047.36.txt</M>
+<M ID="31">D30047.37.txt</M>
+<M ID="32">D30047.38.txt</M>
+<M ID="33">D30047.39.txt</M>
+<M ID="34">D30047.4.txt</M>
+<M ID="35">D30047.5.txt</M>
+<M ID="36">D30047.6.txt</M>
+<M ID="37">D30047.7.txt</M>
+<M ID="38">D30047.8.txt</M>
+<M ID="39">D30047.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_31">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D30048.APW19981016.0655.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D30048.0.txt</M>
+<M ID="1">D30048.1.txt</M>
+<M ID="2">D30048.10.txt</M>
+<M ID="3">D30048.11.txt</M>
+<M ID="4">D30048.12.txt</M>
+<M ID="5">D30048.13.txt</M>
+<M ID="6">D30048.14.txt</M>
+<M ID="7">D30048.15.txt</M>
+<M ID="8">D30048.16.txt</M>
+<M ID="9">D30048.17.txt</M>
+<M ID="10">D30048.18.txt</M>
+<M ID="11">D30048.19.txt</M>
+<M ID="12">D30048.2.txt</M>
+<M ID="13">D30048.20.txt</M>
+<M ID="14">D30048.21.txt</M>
+<M ID="15">D30048.22.txt</M>
+<M ID="16">D30048.23.txt</M>
+<M ID="17">D30048.24.txt</M>
+<M ID="18">D30048.25.txt</M>
+<M ID="19">D30048.26.txt</M>
+<M ID="20">D30048.27.txt</M>
+<M ID="21">D30048.28.txt</M>
+<M ID="22">D30048.29.txt</M>
+<M ID="23">D30048.3.txt</M>
+<M ID="24">D30048.30.txt</M>
+<M ID="25">D30048.31.txt</M>
+<M ID="26">D30048.32.txt</M>
+<M ID="27">D30048.33.txt</M>
+<M ID="28">D30048.34.txt</M>
+<M ID="29">D30048.35.txt</M>
+<M ID="30">D30048.36.txt</M>
+<M ID="31">D30048.37.txt</M>
+<M ID="32">D30048.38.txt</M>
+<M ID="33">D30048.39.txt</M>
+<M ID="34">D30048.4.txt</M>
+<M ID="35">D30048.5.txt</M>
+<M ID="36">D30048.6.txt</M>
+<M ID="37">D30048.7.txt</M>
+<M ID="38">D30048.8.txt</M>
+<M ID="39">D30048.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_32">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D30049.APW19981023.0254.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D30049.0.txt</M>
+<M ID="1">D30049.1.txt</M>
+<M ID="2">D30049.10.txt</M>
+<M ID="3">D30049.11.txt</M>
+<M ID="4">D30049.12.txt</M>
+<M ID="5">D30049.13.txt</M>
+<M ID="6">D30049.14.txt</M>
+<M ID="7">D30049.15.txt</M>
+<M ID="8">D30049.16.txt</M>
+<M ID="9">D30049.17.txt</M>
+<M ID="10">D30049.18.txt</M>
+<M ID="11">D30049.19.txt</M>
+<M ID="12">D30049.2.txt</M>
+<M ID="13">D30049.20.txt</M>
+<M ID="14">D30049.21.txt</M>
+<M ID="15">D30049.22.txt</M>
+<M ID="16">D30049.23.txt</M>
+<M ID="17">D30049.24.txt</M>
+<M ID="18">D30049.25.txt</M>
+<M ID="19">D30049.26.txt</M>
+<M ID="20">D30049.27.txt</M>
+<M ID="21">D30049.28.txt</M>
+<M ID="22">D30049.29.txt</M>
+<M ID="23">D30049.3.txt</M>
+<M ID="24">D30049.30.txt</M>
+<M ID="25">D30049.31.txt</M>
+<M ID="26">D30049.32.txt</M>
+<M ID="27">D30049.33.txt</M>
+<M ID="28">D30049.34.txt</M>
+<M ID="29">D30049.35.txt</M>
+<M ID="30">D30049.36.txt</M>
+<M ID="31">D30049.37.txt</M>
+<M ID="32">D30049.38.txt</M>
+<M ID="33">D30049.39.txt</M>
+<M ID="34">D30049.4.txt</M>
+<M ID="35">D30049.5.txt</M>
+<M ID="36">D30049.6.txt</M>
+<M ID="37">D30049.7.txt</M>
+<M ID="38">D30049.8.txt</M>
+<M ID="39">D30049.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_33">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D30050.NYT19981002.0309.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D30050.0.txt</M>
+<M ID="1">D30050.1.txt</M>
+<M ID="2">D30050.10.txt</M>
+<M ID="3">D30050.11.txt</M>
+<M ID="4">D30050.12.txt</M>
+<M ID="5">D30050.13.txt</M>
+<M ID="6">D30050.14.txt</M>
+<M ID="7">D30050.15.txt</M>
+<M ID="8">D30050.16.txt</M>
+<M ID="9">D30050.17.txt</M>
+<M ID="10">D30050.18.txt</M>
+<M ID="11">D30050.19.txt</M>
+<M ID="12">D30050.2.txt</M>
+<M ID="13">D30050.20.txt</M>
+<M ID="14">D30050.21.txt</M>
+<M ID="15">D30050.22.txt</M>
+<M ID="16">D30050.23.txt</M>
+<M ID="17">D30050.24.txt</M>
+<M ID="18">D30050.25.txt</M>
+<M ID="19">D30050.26.txt</M>
+<M ID="20">D30050.27.txt</M>
+<M ID="21">D30050.28.txt</M>
+<M ID="22">D30050.29.txt</M>
+<M ID="23">D30050.3.txt</M>
+<M ID="24">D30050.30.txt</M>
+<M ID="25">D30050.31.txt</M>
+<M ID="26">D30050.32.txt</M>
+<M ID="27">D30050.33.txt</M>
+<M ID="28">D30050.34.txt</M>
+<M ID="29">D30050.35.txt</M>
+<M ID="30">D30050.36.txt</M>
+<M ID="31">D30050.37.txt</M>
+<M ID="32">D30050.38.txt</M>
+<M ID="33">D30050.39.txt</M>
+<M ID="34">D30050.4.txt</M>
+<M ID="35">D30050.5.txt</M>
+<M ID="36">D30050.6.txt</M>
+<M ID="37">D30050.7.txt</M>
+<M ID="38">D30050.8.txt</M>
+<M ID="39">D30050.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_34">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D30051.APW19981108.0803.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D30051.0.txt</M>
+<M ID="1">D30051.1.txt</M>
+<M ID="2">D30051.10.txt</M>
+<M ID="3">D30051.11.txt</M>
+<M ID="4">D30051.12.txt</M>
+<M ID="5">D30051.13.txt</M>
+<M ID="6">D30051.14.txt</M>
+<M ID="7">D30051.15.txt</M>
+<M ID="8">D30051.16.txt</M>
+<M ID="9">D30051.17.txt</M>
+<M ID="10">D30051.18.txt</M>
+<M ID="11">D30051.19.txt</M>
+<M ID="12">D30051.2.txt</M>
+<M ID="13">D30051.20.txt</M>
+<M ID="14">D30051.21.txt</M>
+<M ID="15">D30051.22.txt</M>
+<M ID="16">D30051.23.txt</M>
+<M ID="17">D30051.24.txt</M>
+<M ID="18">D30051.25.txt</M>
+<M ID="19">D30051.26.txt</M>
+<M ID="20">D30051.27.txt</M>
+<M ID="21">D30051.28.txt</M>
+<M ID="22">D30051.29.txt</M>
+<M ID="23">D30051.3.txt</M>
+<M ID="24">D30051.30.txt</M>
+<M ID="25">D30051.31.txt</M>
+<M ID="26">D30051.32.txt</M>
+<M ID="27">D30051.33.txt</M>
+<M ID="28">D30051.34.txt</M>
+<M ID="29">D30051.35.txt</M>
+<M ID="30">D30051.36.txt</M>
+<M ID="31">D30051.37.txt</M>
+<M ID="32">D30051.38.txt</M>
+<M ID="33">D30051.39.txt</M>
+<M ID="34">D30051.4.txt</M>
+<M ID="35">D30051.5.txt</M>
+<M ID="36">D30051.6.txt</M>
+<M ID="37">D30051.7.txt</M>
+<M ID="38">D30051.8.txt</M>
+<M ID="39">D30051.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_35">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D30053.APW19981206.0557.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D30053.0.txt</M>
+<M ID="1">D30053.1.txt</M>
+<M ID="2">D30053.10.txt</M>
+<M ID="3">D30053.11.txt</M>
+<M ID="4">D30053.12.txt</M>
+<M ID="5">D30053.13.txt</M>
+<M ID="6">D30053.14.txt</M>
+<M ID="7">D30053.15.txt</M>
+<M ID="8">D30053.16.txt</M>
+<M ID="9">D30053.17.txt</M>
+<M ID="10">D30053.18.txt</M>
+<M ID="11">D30053.19.txt</M>
+<M ID="12">D30053.2.txt</M>
+<M ID="13">D30053.20.txt</M>
+<M ID="14">D30053.21.txt</M>
+<M ID="15">D30053.22.txt</M>
+<M ID="16">D30053.23.txt</M>
+<M ID="17">D30053.24.txt</M>
+<M ID="18">D30053.25.txt</M>
+<M ID="19">D30053.26.txt</M>
+<M ID="20">D30053.27.txt</M>
+<M ID="21">D30053.28.txt</M>
+<M ID="22">D30053.29.txt</M>
+<M ID="23">D30053.3.txt</M>
+<M ID="24">D30053.30.txt</M>
+<M ID="25">D30053.31.txt</M>
+<M ID="26">D30053.32.txt</M>
+<M ID="27">D30053.33.txt</M>
+<M ID="28">D30053.34.txt</M>
+<M ID="29">D30053.35.txt</M>
+<M ID="30">D30053.36.txt</M>
+<M ID="31">D30053.37.txt</M>
+<M ID="32">D30053.38.txt</M>
+<M ID="33">D30053.39.txt</M>
+<M ID="34">D30053.4.txt</M>
+<M ID="35">D30053.5.txt</M>
+<M ID="36">D30053.6.txt</M>
+<M ID="37">D30053.7.txt</M>
+<M ID="38">D30053.8.txt</M>
+<M ID="39">D30053.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_36">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D30055.APW19981004.0320.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D30055.0.txt</M>
+<M ID="1">D30055.1.txt</M>
+<M ID="2">D30055.10.txt</M>
+<M ID="3">D30055.11.txt</M>
+<M ID="4">D30055.12.txt</M>
+<M ID="5">D30055.13.txt</M>
+<M ID="6">D30055.14.txt</M>
+<M ID="7">D30055.15.txt</M>
+<M ID="8">D30055.16.txt</M>
+<M ID="9">D30055.17.txt</M>
+<M ID="10">D30055.18.txt</M>
+<M ID="11">D30055.19.txt</M>
+<M ID="12">D30055.2.txt</M>
+<M ID="13">D30055.20.txt</M>
+<M ID="14">D30055.21.txt</M>
+<M ID="15">D30055.22.txt</M>
+<M ID="16">D30055.23.txt</M>
+<M ID="17">D30055.24.txt</M>
+<M ID="18">D30055.25.txt</M>
+<M ID="19">D30055.26.txt</M>
+<M ID="20">D30055.27.txt</M>
+<M ID="21">D30055.28.txt</M>
+<M ID="22">D30055.29.txt</M>
+<M ID="23">D30055.3.txt</M>
+<M ID="24">D30055.30.txt</M>
+<M ID="25">D30055.31.txt</M>
+<M ID="26">D30055.32.txt</M>
+<M ID="27">D30055.33.txt</M>
+<M ID="28">D30055.34.txt</M>
+<M ID="29">D30055.35.txt</M>
+<M ID="30">D30055.36.txt</M>
+<M ID="31">D30055.37.txt</M>
+<M ID="32">D30055.38.txt</M>
+<M ID="33">D30055.39.txt</M>
+<M ID="34">D30055.4.txt</M>
+<M ID="35">D30055.5.txt</M>
+<M ID="36">D30055.6.txt</M>
+<M ID="37">D30055.7.txt</M>
+<M ID="38">D30055.8.txt</M>
+<M ID="39">D30055.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_37">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D30056.APW19981016.0448.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D30056.0.txt</M>
+<M ID="1">D30056.1.txt</M>
+<M ID="2">D30056.10.txt</M>
+<M ID="3">D30056.11.txt</M>
+<M ID="4">D30056.12.txt</M>
+<M ID="5">D30056.13.txt</M>
+<M ID="6">D30056.14.txt</M>
+<M ID="7">D30056.15.txt</M>
+<M ID="8">D30056.16.txt</M>
+<M ID="9">D30056.17.txt</M>
+<M ID="10">D30056.18.txt</M>
+<M ID="11">D30056.19.txt</M>
+<M ID="12">D30056.2.txt</M>
+<M ID="13">D30056.20.txt</M>
+<M ID="14">D30056.21.txt</M>
+<M ID="15">D30056.22.txt</M>
+<M ID="16">D30056.23.txt</M>
+<M ID="17">D30056.24.txt</M>
+<M ID="18">D30056.25.txt</M>
+<M ID="19">D30056.26.txt</M>
+<M ID="20">D30056.27.txt</M>
+<M ID="21">D30056.28.txt</M>
+<M ID="22">D30056.29.txt</M>
+<M ID="23">D30056.3.txt</M>
+<M ID="24">D30056.30.txt</M>
+<M ID="25">D30056.31.txt</M>
+<M ID="26">D30056.32.txt</M>
+<M ID="27">D30056.33.txt</M>
+<M ID="28">D30056.34.txt</M>
+<M ID="29">D30056.35.txt</M>
+<M ID="30">D30056.36.txt</M>
+<M ID="31">D30056.37.txt</M>
+<M ID="32">D30056.38.txt</M>
+<M ID="33">D30056.39.txt</M>
+<M ID="34">D30056.4.txt</M>
+<M ID="35">D30056.5.txt</M>
+<M ID="36">D30056.6.txt</M>
+<M ID="37">D30056.7.txt</M>
+<M ID="38">D30056.8.txt</M>
+<M ID="39">D30056.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_38">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D30059.APW19981120.1199.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D30059.0.txt</M>
+<M ID="1">D30059.1.txt</M>
+<M ID="2">D30059.10.txt</M>
+<M ID="3">D30059.11.txt</M>
+<M ID="4">D30059.12.txt</M>
+<M ID="5">D30059.13.txt</M>
+<M ID="6">D30059.14.txt</M>
+<M ID="7">D30059.15.txt</M>
+<M ID="8">D30059.16.txt</M>
+<M ID="9">D30059.17.txt</M>
+<M ID="10">D30059.18.txt</M>
+<M ID="11">D30059.19.txt</M>
+<M ID="12">D30059.2.txt</M>
+<M ID="13">D30059.20.txt</M>
+<M ID="14">D30059.21.txt</M>
+<M ID="15">D30059.22.txt</M>
+<M ID="16">D30059.23.txt</M>
+<M ID="17">D30059.24.txt</M>
+<M ID="18">D30059.25.txt</M>
+<M ID="19">D30059.26.txt</M>
+<M ID="20">D30059.27.txt</M>
+<M ID="21">D30059.28.txt</M>
+<M ID="22">D30059.29.txt</M>
+<M ID="23">D30059.3.txt</M>
+<M ID="24">D30059.30.txt</M>
+<M ID="25">D30059.31.txt</M>
+<M ID="26">D30059.32.txt</M>
+<M ID="27">D30059.33.txt</M>
+<M ID="28">D30059.34.txt</M>
+<M ID="29">D30059.35.txt</M>
+<M ID="30">D30059.36.txt</M>
+<M ID="31">D30059.37.txt</M>
+<M ID="32">D30059.38.txt</M>
+<M ID="33">D30059.39.txt</M>
+<M ID="34">D30059.4.txt</M>
+<M ID="35">D30059.5.txt</M>
+<M ID="36">D30059.6.txt</M>
+<M ID="37">D30059.7.txt</M>
+<M ID="38">D30059.8.txt</M>
+<M ID="39">D30059.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_39">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D31001.APW19981008.0841.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D31001.0.txt</M>
+<M ID="1">D31001.1.txt</M>
+<M ID="2">D31001.10.txt</M>
+<M ID="3">D31001.11.txt</M>
+<M ID="4">D31001.12.txt</M>
+<M ID="5">D31001.13.txt</M>
+<M ID="6">D31001.14.txt</M>
+<M ID="7">D31001.15.txt</M>
+<M ID="8">D31001.16.txt</M>
+<M ID="9">D31001.17.txt</M>
+<M ID="10">D31001.18.txt</M>
+<M ID="11">D31001.19.txt</M>
+<M ID="12">D31001.2.txt</M>
+<M ID="13">D31001.20.txt</M>
+<M ID="14">D31001.21.txt</M>
+<M ID="15">D31001.22.txt</M>
+<M ID="16">D31001.23.txt</M>
+<M ID="17">D31001.24.txt</M>
+<M ID="18">D31001.25.txt</M>
+<M ID="19">D31001.26.txt</M>
+<M ID="20">D31001.27.txt</M>
+<M ID="21">D31001.28.txt</M>
+<M ID="22">D31001.29.txt</M>
+<M ID="23">D31001.3.txt</M>
+<M ID="24">D31001.30.txt</M>
+<M ID="25">D31001.31.txt</M>
+<M ID="26">D31001.32.txt</M>
+<M ID="27">D31001.33.txt</M>
+<M ID="28">D31001.34.txt</M>
+<M ID="29">D31001.35.txt</M>
+<M ID="30">D31001.36.txt</M>
+<M ID="31">D31001.37.txt</M>
+<M ID="32">D31001.38.txt</M>
+<M ID="33">D31001.39.txt</M>
+<M ID="34">D31001.4.txt</M>
+<M ID="35">D31001.5.txt</M>
+<M ID="36">D31001.6.txt</M>
+<M ID="37">D31001.7.txt</M>
+<M ID="38">D31001.8.txt</M>
+<M ID="39">D31001.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_40">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D31008.NYT19981009.0436.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D31008.0.txt</M>
+<M ID="1">D31008.1.txt</M>
+<M ID="2">D31008.10.txt</M>
+<M ID="3">D31008.11.txt</M>
+<M ID="4">D31008.12.txt</M>
+<M ID="5">D31008.13.txt</M>
+<M ID="6">D31008.14.txt</M>
+<M ID="7">D31008.15.txt</M>
+<M ID="8">D31008.16.txt</M>
+<M ID="9">D31008.17.txt</M>
+<M ID="10">D31008.18.txt</M>
+<M ID="11">D31008.19.txt</M>
+<M ID="12">D31008.2.txt</M>
+<M ID="13">D31008.20.txt</M>
+<M ID="14">D31008.21.txt</M>
+<M ID="15">D31008.22.txt</M>
+<M ID="16">D31008.23.txt</M>
+<M ID="17">D31008.24.txt</M>
+<M ID="18">D31008.25.txt</M>
+<M ID="19">D31008.26.txt</M>
+<M ID="20">D31008.27.txt</M>
+<M ID="21">D31008.28.txt</M>
+<M ID="22">D31008.29.txt</M>
+<M ID="23">D31008.3.txt</M>
+<M ID="24">D31008.30.txt</M>
+<M ID="25">D31008.31.txt</M>
+<M ID="26">D31008.32.txt</M>
+<M ID="27">D31008.33.txt</M>
+<M ID="28">D31008.34.txt</M>
+<M ID="29">D31008.35.txt</M>
+<M ID="30">D31008.36.txt</M>
+<M ID="31">D31008.37.txt</M>
+<M ID="32">D31008.38.txt</M>
+<M ID="33">D31008.39.txt</M>
+<M ID="34">D31008.4.txt</M>
+<M ID="35">D31008.5.txt</M>
+<M ID="36">D31008.6.txt</M>
+<M ID="37">D31008.7.txt</M>
+<M ID="38">D31008.8.txt</M>
+<M ID="39">D31008.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_41">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D31009.APW19981111.0309.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D31009.0.txt</M>
+<M ID="1">D31009.1.txt</M>
+<M ID="2">D31009.10.txt</M>
+<M ID="3">D31009.11.txt</M>
+<M ID="4">D31009.12.txt</M>
+<M ID="5">D31009.13.txt</M>
+<M ID="6">D31009.14.txt</M>
+<M ID="7">D31009.15.txt</M>
+<M ID="8">D31009.16.txt</M>
+<M ID="9">D31009.17.txt</M>
+<M ID="10">D31009.18.txt</M>
+<M ID="11">D31009.19.txt</M>
+<M ID="12">D31009.2.txt</M>
+<M ID="13">D31009.20.txt</M>
+<M ID="14">D31009.21.txt</M>
+<M ID="15">D31009.22.txt</M>
+<M ID="16">D31009.23.txt</M>
+<M ID="17">D31009.24.txt</M>
+<M ID="18">D31009.25.txt</M>
+<M ID="19">D31009.26.txt</M>
+<M ID="20">D31009.27.txt</M>
+<M ID="21">D31009.28.txt</M>
+<M ID="22">D31009.29.txt</M>
+<M ID="23">D31009.3.txt</M>
+<M ID="24">D31009.30.txt</M>
+<M ID="25">D31009.31.txt</M>
+<M ID="26">D31009.32.txt</M>
+<M ID="27">D31009.33.txt</M>
+<M ID="28">D31009.34.txt</M>
+<M ID="29">D31009.35.txt</M>
+<M ID="30">D31009.36.txt</M>
+<M ID="31">D31009.37.txt</M>
+<M ID="32">D31009.38.txt</M>
+<M ID="33">D31009.39.txt</M>
+<M ID="34">D31009.4.txt</M>
+<M ID="35">D31009.5.txt</M>
+<M ID="36">D31009.6.txt</M>
+<M ID="37">D31009.7.txt</M>
+<M ID="38">D31009.8.txt</M>
+<M ID="39">D31009.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_42">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D31013.APW19981109.0728.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D31013.0.txt</M>
+<M ID="1">D31013.1.txt</M>
+<M ID="2">D31013.10.txt</M>
+<M ID="3">D31013.11.txt</M>
+<M ID="4">D31013.12.txt</M>
+<M ID="5">D31013.13.txt</M>
+<M ID="6">D31013.14.txt</M>
+<M ID="7">D31013.15.txt</M>
+<M ID="8">D31013.16.txt</M>
+<M ID="9">D31013.17.txt</M>
+<M ID="10">D31013.18.txt</M>
+<M ID="11">D31013.19.txt</M>
+<M ID="12">D31013.2.txt</M>
+<M ID="13">D31013.20.txt</M>
+<M ID="14">D31013.21.txt</M>
+<M ID="15">D31013.22.txt</M>
+<M ID="16">D31013.23.txt</M>
+<M ID="17">D31013.24.txt</M>
+<M ID="18">D31013.25.txt</M>
+<M ID="19">D31013.26.txt</M>
+<M ID="20">D31013.27.txt</M>
+<M ID="21">D31013.28.txt</M>
+<M ID="22">D31013.29.txt</M>
+<M ID="23">D31013.3.txt</M>
+<M ID="24">D31013.30.txt</M>
+<M ID="25">D31013.31.txt</M>
+<M ID="26">D31013.32.txt</M>
+<M ID="27">D31013.33.txt</M>
+<M ID="28">D31013.34.txt</M>
+<M ID="29">D31013.35.txt</M>
+<M ID="30">D31013.36.txt</M>
+<M ID="31">D31013.37.txt</M>
+<M ID="32">D31013.38.txt</M>
+<M ID="33">D31013.39.txt</M>
+<M ID="34">D31013.4.txt</M>
+<M ID="35">D31013.5.txt</M>
+<M ID="36">D31013.6.txt</M>
+<M ID="37">D31013.7.txt</M>
+<M ID="38">D31013.8.txt</M>
+<M ID="39">D31013.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_43">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D31022.APW19981030.0230.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D31022.0.txt</M>
+<M ID="1">D31022.1.txt</M>
+<M ID="2">D31022.10.txt</M>
+<M ID="3">D31022.11.txt</M>
+<M ID="4">D31022.12.txt</M>
+<M ID="5">D31022.13.txt</M>
+<M ID="6">D31022.14.txt</M>
+<M ID="7">D31022.15.txt</M>
+<M ID="8">D31022.16.txt</M>
+<M ID="9">D31022.17.txt</M>
+<M ID="10">D31022.18.txt</M>
+<M ID="11">D31022.19.txt</M>
+<M ID="12">D31022.2.txt</M>
+<M ID="13">D31022.20.txt</M>
+<M ID="14">D31022.21.txt</M>
+<M ID="15">D31022.22.txt</M>
+<M ID="16">D31022.23.txt</M>
+<M ID="17">D31022.24.txt</M>
+<M ID="18">D31022.25.txt</M>
+<M ID="19">D31022.26.txt</M>
+<M ID="20">D31022.27.txt</M>
+<M ID="21">D31022.28.txt</M>
+<M ID="22">D31022.29.txt</M>
+<M ID="23">D31022.3.txt</M>
+<M ID="24">D31022.30.txt</M>
+<M ID="25">D31022.31.txt</M>
+<M ID="26">D31022.32.txt</M>
+<M ID="27">D31022.33.txt</M>
+<M ID="28">D31022.34.txt</M>
+<M ID="29">D31022.35.txt</M>
+<M ID="30">D31022.36.txt</M>
+<M ID="31">D31022.37.txt</M>
+<M ID="32">D31022.38.txt</M>
+<M ID="33">D31022.39.txt</M>
+<M ID="34">D31022.4.txt</M>
+<M ID="35">D31022.5.txt</M>
+<M ID="36">D31022.6.txt</M>
+<M ID="37">D31022.7.txt</M>
+<M ID="38">D31022.8.txt</M>
+<M ID="39">D31022.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_44">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D31026.NYT19981010.0022.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D31026.0.txt</M>
+<M ID="1">D31026.1.txt</M>
+<M ID="2">D31026.10.txt</M>
+<M ID="3">D31026.11.txt</M>
+<M ID="4">D31026.12.txt</M>
+<M ID="5">D31026.13.txt</M>
+<M ID="6">D31026.14.txt</M>
+<M ID="7">D31026.15.txt</M>
+<M ID="8">D31026.16.txt</M>
+<M ID="9">D31026.17.txt</M>
+<M ID="10">D31026.18.txt</M>
+<M ID="11">D31026.19.txt</M>
+<M ID="12">D31026.2.txt</M>
+<M ID="13">D31026.20.txt</M>
+<M ID="14">D31026.21.txt</M>
+<M ID="15">D31026.22.txt</M>
+<M ID="16">D31026.23.txt</M>
+<M ID="17">D31026.24.txt</M>
+<M ID="18">D31026.25.txt</M>
+<M ID="19">D31026.26.txt</M>
+<M ID="20">D31026.27.txt</M>
+<M ID="21">D31026.28.txt</M>
+<M ID="22">D31026.29.txt</M>
+<M ID="23">D31026.3.txt</M>
+<M ID="24">D31026.30.txt</M>
+<M ID="25">D31026.31.txt</M>
+<M ID="26">D31026.32.txt</M>
+<M ID="27">D31026.33.txt</M>
+<M ID="28">D31026.34.txt</M>
+<M ID="29">D31026.35.txt</M>
+<M ID="30">D31026.36.txt</M>
+<M ID="31">D31026.37.txt</M>
+<M ID="32">D31026.38.txt</M>
+<M ID="33">D31026.39.txt</M>
+<M ID="34">D31026.4.txt</M>
+<M ID="35">D31026.5.txt</M>
+<M ID="36">D31026.6.txt</M>
+<M ID="37">D31026.7.txt</M>
+<M ID="38">D31026.8.txt</M>
+<M ID="39">D31026.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_45">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D31031.NYT19981001.0442.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D31031.0.txt</M>
+<M ID="1">D31031.1.txt</M>
+<M ID="2">D31031.10.txt</M>
+<M ID="3">D31031.11.txt</M>
+<M ID="4">D31031.12.txt</M>
+<M ID="5">D31031.13.txt</M>
+<M ID="6">D31031.14.txt</M>
+<M ID="7">D31031.15.txt</M>
+<M ID="8">D31031.16.txt</M>
+<M ID="9">D31031.17.txt</M>
+<M ID="10">D31031.18.txt</M>
+<M ID="11">D31031.19.txt</M>
+<M ID="12">D31031.2.txt</M>
+<M ID="13">D31031.20.txt</M>
+<M ID="14">D31031.21.txt</M>
+<M ID="15">D31031.22.txt</M>
+<M ID="16">D31031.23.txt</M>
+<M ID="17">D31031.24.txt</M>
+<M ID="18">D31031.25.txt</M>
+<M ID="19">D31031.26.txt</M>
+<M ID="20">D31031.27.txt</M>
+<M ID="21">D31031.28.txt</M>
+<M ID="22">D31031.29.txt</M>
+<M ID="23">D31031.3.txt</M>
+<M ID="24">D31031.30.txt</M>
+<M ID="25">D31031.31.txt</M>
+<M ID="26">D31031.32.txt</M>
+<M ID="27">D31031.33.txt</M>
+<M ID="28">D31031.34.txt</M>
+<M ID="29">D31031.35.txt</M>
+<M ID="30">D31031.36.txt</M>
+<M ID="31">D31031.37.txt</M>
+<M ID="32">D31031.38.txt</M>
+<M ID="33">D31031.39.txt</M>
+<M ID="34">D31031.4.txt</M>
+<M ID="35">D31031.5.txt</M>
+<M ID="36">D31031.6.txt</M>
+<M ID="37">D31031.7.txt</M>
+<M ID="38">D31031.8.txt</M>
+<M ID="39">D31031.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_46">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D31032.APW19981001.0299.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D31032.0.txt</M>
+<M ID="1">D31032.1.txt</M>
+<M ID="2">D31032.10.txt</M>
+<M ID="3">D31032.11.txt</M>
+<M ID="4">D31032.12.txt</M>
+<M ID="5">D31032.13.txt</M>
+<M ID="6">D31032.14.txt</M>
+<M ID="7">D31032.15.txt</M>
+<M ID="8">D31032.16.txt</M>
+<M ID="9">D31032.17.txt</M>
+<M ID="10">D31032.18.txt</M>
+<M ID="11">D31032.19.txt</M>
+<M ID="12">D31032.2.txt</M>
+<M ID="13">D31032.20.txt</M>
+<M ID="14">D31032.21.txt</M>
+<M ID="15">D31032.22.txt</M>
+<M ID="16">D31032.23.txt</M>
+<M ID="17">D31032.24.txt</M>
+<M ID="18">D31032.25.txt</M>
+<M ID="19">D31032.26.txt</M>
+<M ID="20">D31032.27.txt</M>
+<M ID="21">D31032.28.txt</M>
+<M ID="22">D31032.29.txt</M>
+<M ID="23">D31032.3.txt</M>
+<M ID="24">D31032.30.txt</M>
+<M ID="25">D31032.31.txt</M>
+<M ID="26">D31032.32.txt</M>
+<M ID="27">D31032.33.txt</M>
+<M ID="28">D31032.34.txt</M>
+<M ID="29">D31032.35.txt</M>
+<M ID="30">D31032.36.txt</M>
+<M ID="31">D31032.37.txt</M>
+<M ID="32">D31032.38.txt</M>
+<M ID="33">D31032.39.txt</M>
+<M ID="34">D31032.4.txt</M>
+<M ID="35">D31032.5.txt</M>
+<M ID="36">D31032.6.txt</M>
+<M ID="37">D31032.7.txt</M>
+<M ID="38">D31032.8.txt</M>
+<M ID="39">D31032.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_47">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D31033.NYT19981007.0302.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D31033.0.txt</M>
+<M ID="1">D31033.1.txt</M>
+<M ID="2">D31033.10.txt</M>
+<M ID="3">D31033.11.txt</M>
+<M ID="4">D31033.12.txt</M>
+<M ID="5">D31033.13.txt</M>
+<M ID="6">D31033.14.txt</M>
+<M ID="7">D31033.15.txt</M>
+<M ID="8">D31033.16.txt</M>
+<M ID="9">D31033.17.txt</M>
+<M ID="10">D31033.18.txt</M>
+<M ID="11">D31033.19.txt</M>
+<M ID="12">D31033.2.txt</M>
+<M ID="13">D31033.20.txt</M>
+<M ID="14">D31033.21.txt</M>
+<M ID="15">D31033.22.txt</M>
+<M ID="16">D31033.23.txt</M>
+<M ID="17">D31033.24.txt</M>
+<M ID="18">D31033.25.txt</M>
+<M ID="19">D31033.26.txt</M>
+<M ID="20">D31033.27.txt</M>
+<M ID="21">D31033.28.txt</M>
+<M ID="22">D31033.29.txt</M>
+<M ID="23">D31033.3.txt</M>
+<M ID="24">D31033.30.txt</M>
+<M ID="25">D31033.31.txt</M>
+<M ID="26">D31033.32.txt</M>
+<M ID="27">D31033.33.txt</M>
+<M ID="28">D31033.34.txt</M>
+<M ID="29">D31033.35.txt</M>
+<M ID="30">D31033.36.txt</M>
+<M ID="31">D31033.37.txt</M>
+<M ID="32">D31033.38.txt</M>
+<M ID="33">D31033.39.txt</M>
+<M ID="34">D31033.4.txt</M>
+<M ID="35">D31033.5.txt</M>
+<M ID="36">D31033.6.txt</M>
+<M ID="37">D31033.7.txt</M>
+<M ID="38">D31033.8.txt</M>
+<M ID="39">D31033.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_48">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D31038.APW19981023.0569.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D31038.0.txt</M>
+<M ID="1">D31038.1.txt</M>
+<M ID="2">D31038.10.txt</M>
+<M ID="3">D31038.11.txt</M>
+<M ID="4">D31038.12.txt</M>
+<M ID="5">D31038.13.txt</M>
+<M ID="6">D31038.14.txt</M>
+<M ID="7">D31038.15.txt</M>
+<M ID="8">D31038.16.txt</M>
+<M ID="9">D31038.17.txt</M>
+<M ID="10">D31038.18.txt</M>
+<M ID="11">D31038.19.txt</M>
+<M ID="12">D31038.2.txt</M>
+<M ID="13">D31038.20.txt</M>
+<M ID="14">D31038.21.txt</M>
+<M ID="15">D31038.22.txt</M>
+<M ID="16">D31038.23.txt</M>
+<M ID="17">D31038.24.txt</M>
+<M ID="18">D31038.25.txt</M>
+<M ID="19">D31038.26.txt</M>
+<M ID="20">D31038.27.txt</M>
+<M ID="21">D31038.28.txt</M>
+<M ID="22">D31038.29.txt</M>
+<M ID="23">D31038.3.txt</M>
+<M ID="24">D31038.30.txt</M>
+<M ID="25">D31038.31.txt</M>
+<M ID="26">D31038.32.txt</M>
+<M ID="27">D31038.33.txt</M>
+<M ID="28">D31038.34.txt</M>
+<M ID="29">D31038.35.txt</M>
+<M ID="30">D31038.36.txt</M>
+<M ID="31">D31038.37.txt</M>
+<M ID="32">D31038.38.txt</M>
+<M ID="33">D31038.39.txt</M>
+<M ID="34">D31038.4.txt</M>
+<M ID="35">D31038.5.txt</M>
+<M ID="36">D31038.6.txt</M>
+<M ID="37">D31038.7.txt</M>
+<M ID="38">D31038.8.txt</M>
+<M ID="39">D31038.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_49">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D31043.APW19981006.0802.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D31043.0.txt</M>
+<M ID="1">D31043.1.txt</M>
+<M ID="2">D31043.10.txt</M>
+<M ID="3">D31043.11.txt</M>
+<M ID="4">D31043.12.txt</M>
+<M ID="5">D31043.13.txt</M>
+<M ID="6">D31043.14.txt</M>
+<M ID="7">D31043.15.txt</M>
+<M ID="8">D31043.16.txt</M>
+<M ID="9">D31043.17.txt</M>
+<M ID="10">D31043.18.txt</M>
+<M ID="11">D31043.19.txt</M>
+<M ID="12">D31043.2.txt</M>
+<M ID="13">D31043.20.txt</M>
+<M ID="14">D31043.21.txt</M>
+<M ID="15">D31043.22.txt</M>
+<M ID="16">D31043.23.txt</M>
+<M ID="17">D31043.24.txt</M>
+<M ID="18">D31043.25.txt</M>
+<M ID="19">D31043.26.txt</M>
+<M ID="20">D31043.27.txt</M>
+<M ID="21">D31043.28.txt</M>
+<M ID="22">D31043.29.txt</M>
+<M ID="23">D31043.3.txt</M>
+<M ID="24">D31043.30.txt</M>
+<M ID="25">D31043.31.txt</M>
+<M ID="26">D31043.32.txt</M>
+<M ID="27">D31043.33.txt</M>
+<M ID="28">D31043.34.txt</M>
+<M ID="29">D31043.35.txt</M>
+<M ID="30">D31043.36.txt</M>
+<M ID="31">D31043.37.txt</M>
+<M ID="32">D31043.38.txt</M>
+<M ID="33">D31043.39.txt</M>
+<M ID="34">D31043.4.txt</M>
+<M ID="35">D31043.5.txt</M>
+<M ID="36">D31043.6.txt</M>
+<M ID="37">D31043.7.txt</M>
+<M ID="38">D31043.8.txt</M>
+<M ID="39">D31043.9.txt</M>
+</MODELS>
+</EVAL>
+
+<EVAL ID="TASK_50">
+<MODEL-ROOT>./models/</MODEL-ROOT>
+<PEER-ROOT>./peers/</PEER-ROOT>
+<INPUT-FORMAT TYPE="SPL"></INPUT-FORMAT>
+<PEERS>
+<P ID="1">D31050.APW19981005.0231.txt</P>
+</PEERS>
+<MODELS>
+<M ID="0">D31050.0.txt</M>
+<M ID="1">D31050.1.txt</M>
+<M ID="2">D31050.10.txt</M>
+<M ID="3">D31050.11.txt</M>
+<M ID="4">D31050.12.txt</M>
+<M ID="5">D31050.13.txt</M>
+<M ID="6">D31050.14.txt</M>
+<M ID="7">D31050.15.txt</M>
+<M ID="8">D31050.16.txt</M>
+<M ID="9">D31050.17.txt</M>
+<M ID="10">D31050.18.txt</M>
+<M ID="11">D31050.19.txt</M>
+<M ID="12">D31050.2.txt</M>
+<M ID="13">D31050.20.txt</M>
+<M ID="14">D31050.21.txt</M>
+<M ID="15">D31050.22.txt</M>
+<M ID="16">D31050.23.txt</M>
+<M ID="17">D31050.24.txt</M>
+<M ID="18">D31050.25.txt</M>
+<M ID="19">D31050.26.txt</M>
+<M ID="20">D31050.27.txt</M>
+<M ID="21">D31050.28.txt</M>
+<M ID="22">D31050.29.txt</M>
+<M ID="23">D31050.3.txt</M>
+<M ID="24">D31050.30.txt</M>
+<M ID="25">D31050.31.txt</M>
+<M ID="26">D31050.32.txt</M>
+<M ID="27">D31050.33.txt</M>
+<M ID="28">D31050.34.txt</M>
+<M ID="29">D31050.35.txt</M>
+<M ID="30">D31050.36.txt</M>
+<M ID="31">D31050.37.txt</M>
+<M ID="32">D31050.38.txt</M>
+<M ID="33">D31050.39.txt</M>
+<M ID="34">D31050.4.txt</M>
+<M ID="35">D31050.5.txt</M>
+<M ID="36">D31050.6.txt</M>
+<M ID="37">D31050.7.txt</M>
+<M ID="38">D31050.8.txt</M>
+<M ID="39">D31050.9.txt</M>
+</MODELS>
+</EVAL>
+
+
+</ROUGE_EVAL>

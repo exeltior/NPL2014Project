@@ -4,10 +4,10 @@ python extractDocs.py ./duc2004/docs/ ./docs/
 
 ============
 
-2 - Extract models.
+2 - Generate or copy models.
 Generate our headlines from docs using:
 
-python headlines.py <doc_input_dir> <models_out_dir>
+python headlines.py doc_input_dir models_out_dir
 
 or you can copy models from the DUC directory to the project directory, renaming files to the expected format.
 This can be useful for comparison of the final results. For this use:

@@ -3,17 +3,16 @@ This will also rename the files to the format expected by headlines.py
 
 python extractDocs.py ./duc2004/docs/ ./docs/
 
-============
-
-2 - Generate or copy models.
-Generate our headlines from docs using:
-
-python headlines.py doc_input_dir models_out_dir
-
-or you can copy models from the DUC directory to the project directory, renaming files to the expected format.
-This can be useful for comparison of the final results. For this use:
+Also copy human generated headlines ('models') from the DUC data. These are used to generate the final ROUGE score
 
 python extractModels.py ./duc2004/eval/models/1/ ./models/
+
+============
+
+2 - Generate our headlines ('pears').
+Generate our headlines from docs using:
+
+python headlines.py doc_input_dir pears_out_dir
 
 ============
 

@@ -35,5 +35,6 @@ NB: the docset ID is the first component in the filename of both models and peer
 
 4 - Run ROUGE
 
-sudo perl ROUGE-1.5.5.pl -e ./ROUGE/RELEASE-1.5.5/data/ -a -c 95 -b 75 -m -n 2 -x -w 1.2 settings.xml > rougeResults.txt
-
+```
+perl ROUGE-1.5.5.pl -e ./ROUGE/RELEASE-1.5.5/data/ -a -c 95 -b 75 -m -n 2 -x -w 1.2 settings.xml > rougeResults.txt
+```

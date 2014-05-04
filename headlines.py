@@ -39,7 +39,7 @@ def generateHeadline(text):
             result += word
             result += ' '
         
-    return result
+    return first
     
     
     

@@ -1,5 +1,6 @@
 1 - Extract documents from the DUC directory to my project doc directory
-This will also rename the files to the format expected by headlines.py
+This will also rename the files to the format expected by headlines.py.
+
 Copies ALL the docs, creating a subfolder for each docset
 
 ```

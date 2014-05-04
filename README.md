@@ -18,8 +18,12 @@ python extractModels.py ./duc2004/eval/models/1/ ./models/
 Generate our headlines from docs using:
 
 ```
-python headlines.py doc_input_dir pears_out_dir
+python headlines.py doc_input_dir pears_out_dir [--all | --random]
 ```
+
+--all: generate headline for ALL the docs, so multiple headlines for the same docket.
+--random: generate headline for a randomly picked article in every docket
+default: pick the first article in each docset (alphabetically ordered)
 
 ============
 

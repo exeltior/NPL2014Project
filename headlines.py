@@ -5,6 +5,7 @@ import sys
 import nltk
 import os
 import os.path
+import random
 
 from nltk.stem.wordnet import WordNetLemmatizer
 
@@ -41,20 +42,38 @@ def generateHeadline(text):
 
 
 if __name__ == "__main__":
-    if len(sys.argv) != 3:
+    if len(sys.argv) < 3:
         print "Requires 2 arguments <documents_dir> <output_dir>"
+        print "Usage headlines.py <documents_dir> <output_dir> [--all|random]"
+        print "Use --all to produce headline for ALL the documents in each docset, --random to pick one at random, default picks the first one"
         sys.exit(0)
 
     doc_dir = sys.argv[1]
     out_dir = sys.argv[2]
-    for root, _, files in os.walk(doc_dir):
-        for f in files:
-            fullpath = os.path.join(root, f)
-            in_file = open(fullpath, "r")
-            text = in_file.read()
-            in_file.close()
-            print "Generating headline for: " + fullpath
-            headline = generateHeadline(text)
-            out_file = open(out_dir + f, "w")
-            out_file.write(headline)
-            out_file.close()
+    pickAll = '--all' in sys.argv
+    if not pickAll:
+        pickRandom = '--random' in sys.argv
+        
+    
+    for main_root, dirs, files in os.walk(doc_dir):
+        dirs.sort()        
+        for d in dirs:
+            for root, _, files in os.walk(os.path.join(main_root, d)):
+                files.sort()   
+                if not pickAll:
+                    if pickRandom:
+                        files = random.sample(files, 1)
+                    else:
+                        files = [files[0]]
+                for f in files:
+                    if f[0] == '.':
+                        continue
+                    fullpath = os.path.join(root, f)
+                    in_file = open(fullpath, "r")
+                    text = in_file.read()
+                    in_file.close()
+                    print "Generating headline for: " + fullpath
+                    headline = generateHeadline(text)
+                    out_file = open(out_dir + f, "w")
+                    out_file.write(headline)
+                    out_file.close()

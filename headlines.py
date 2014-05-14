@@ -98,8 +98,8 @@ def generateHeadline(text, docset):
             result += word
             result += ' '
      
-    result = compressSentence(first, 75)    
-    return result
+    compressed = compressSentence(first, 75)    
+    return first
 
 
 
@@ -152,6 +152,10 @@ if __name__ == "__main__":
                     fullpath = os.path.join(root, files[i])
                     print "Generating headline for: " + fullpath
                     headline = generateHeadline(docset[i], docset)
-                    out_file = open(out_dir + files[i], "w")
-                    out_file.write(headline)
-                    out_file.close()                
+                    if headline != None and len(headline):
+                        out_file = open(out_dir + files[i], "w")
+                        out_file.write(headline)
+                        out_file.close()    
+                    else:
+                        print "ERROR: headline result was empty!"
+                print ''

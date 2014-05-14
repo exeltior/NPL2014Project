@@ -38,6 +38,6 @@ if __name__ == "__main__":
             if not os.path.exists(current_out_path):
                 os.makedirs(current_out_path)            
             
-            out_file = open(current_out_path + docset +"." + f + ".txt","w")
+            out_file = open(current_out_path + docset.upper() +"." + f + ".txt","w")
             out_file.write(text)
             out_file.close()         

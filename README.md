@@ -22,6 +22,11 @@ Generate our headlines from docs using:
 python headlines.py doc_input_dir pears_out_dir [--all | --random]
 ```
 
+Example (suggested way to use):
+```
+python headlines.py ./docs/ ./peers/ --all
+```
+
 --all: generate headline for ALL the docs, so multiple headlines for the same docket.
 
 --random: generate headline for a randomly picked article in every docket
@@ -36,8 +41,6 @@ default: pick the first article in each docset (alphabetically ordered)
 ```
 python generateRougeScript.py ./models/ ./peers/ > settings.xml
 ```
-NB: does not supports multiple peers so for every docset ID it expects only 1 peer file with the corresponding headline
-NB: the docset ID is the first component in the filename of both models and peers (the token before the first .).
 
 ============
 

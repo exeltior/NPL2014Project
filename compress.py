@@ -6,6 +6,11 @@ import re
 
 
 def compressSentence(sentence, byte_limit):
+    #For now just return the first sentence
+    #Doing this more for consistency.
+    #Remove this once you are done
+
+    return sentence 
     print '== COMPRESSING =='
     outfile = open('headline.tmpdata', 'w')
     outfile.write(sentence)

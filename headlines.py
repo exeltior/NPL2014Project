@@ -98,8 +98,8 @@ def generateHeadline(text, docset):
             result += word
             result += ' '
      
-    #compressed = compressSentence(first, 75)    
-    return first
+    result = compressSentence(first, 76)    
+    return result
 
 
 

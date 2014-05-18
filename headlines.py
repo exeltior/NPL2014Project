@@ -33,11 +33,14 @@ def generateHeadline(text, docset):
     wnl = WordNetLemmatizer()
     stopwords = st.words()  # get list of 2431 stopwords from NLTK corpus
     docsetText = "/n".join(docset)
+
     # PREPROCESSING
     text = text.strip()
+
     # Words frequency
     lowercase_words = [w.lower()
                        for w in word_tokenizer.tokenize(docsetText if useDocsetData else text)]
+
     useful_words = [w for w in lowercase_words
                     if (w not in stopwords and len(w) > 2)]
 
@@ -45,8 +48,6 @@ def generateHeadline(text, docset):
         useful_words = [wnl.lemmatize(w) for w in useful_words]
 
     #word_freq = FreqDist(useful_words)
-    #len(word_freq)
-
     # Tokenize text into sentences
     sentences = sent_tokenizer.tokenize(text)
 
@@ -71,6 +72,7 @@ def generateHeadline(text, docset):
     #idx_max = scores.argmax()
     #print "Best sentence " + str(idx_max) + " -> score: " + str(scores[idx_max])
     #print sentences[idx_max]
+
     # Consider only first sentence
     first = sentences[0]
 
@@ -90,8 +92,8 @@ def generateHeadline(text, docset):
             result += word
             result += ' '
 
-    compressed = compressSentence(first, 75)
-    return compressed
+    result = compressSentence(first, 76)
+    return result
 
 
 if __name__ == "__main__":
@@ -112,6 +114,7 @@ if __name__ == "__main__":
     for main_root, dirs, files in os.walk(out_dir):
         for f in files:
             os.remove(out_dir + f)
+
     for main_root, dirs, files in os.walk(doc_dir):
         dirs.sort()
         for d in dirs:

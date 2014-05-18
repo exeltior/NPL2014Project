@@ -7,10 +7,10 @@ import os
 import os.path
 import random
 
-from nltk.tokenize import *
+from nltk.tokenize import TreebankWordTokenizer
 from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.corpus import stopwords as st
-#from nltk.probability import FreqDist
+from nltk.probability import FreqDist
 
 from compress import compressSentence
 
@@ -21,6 +21,9 @@ useDocsetData = True
 
 # Lemmatize words before computing frequency
 useLemmasForFrequency = True
+
+#The number o most frequent words which should occur in a sentence
+MAX_WORDS = 5
 
 
 # text: article to analyze
@@ -44,53 +47,42 @@ def generateHeadline(text, docset):
     if useLemmasForFrequency:
         useful_words = [wnl.lemmatize(w) for w in useful_words]
 
-    #word_freq = FreqDist(useful_words)
-    #len(word_freq)
+    word_frequencies = FreqDist(useful_words)
 
-    # Tokenize text into sentences
+    most_frequent_words = [pair[0] for pair in word_frequencies.items()[:MAX_WORDS]]
+
     sentences = sent_tokenizer.tokenize(text)
 
-    ## Attemp to give a score to find the best sentence. But is seems than in
-    ## fast the best sentence is always the first one
+    working_sentences = [sentence.lower() for sentence in sentences]
 
-    # Give a score to each sentence
-    #scores = np.zeros(len(sentences))
-    #for idx in xrange(len(sentences)):
-        #sentence = sentences[idx]
-        #words = [w.lower() for w in word_tokenizer.tokenize(sentence)]
-        #words = [w for w in words if (w not in stopwords and len(w) > 2)]
-        #for w in words:
-            #if useLemmasForFrequency:
-                #w = wnl.lemmatize(w)
-            #scores[idx] += word_freq.freq(w)
-        #if scores[idx] > 0:
-            #scores[idx] /=  len(words)
-
-    #scores[0] += 0.005
-
-    #idx_max = scores.argmax()
-    #print "Best sentence " + str(idx_max) + " -> score: " + str(scores[idx_max])
-    #print sentences[idx_max]
-    # Consider only first sentence
-    first = sentences[0]
-
+    result = ''
+    max_words = -1
+    for s in working_sentences:
+        count = 0
+        for word in most_frequent_words:
+            if word in s:
+                count = count + 1
+        if count > max_words:
+            result = s
+            max_words = count
+            break
     # Tokenize and POS tag on the first sentence
-    tokens = nltk.word_tokenize(first)
-    pos = nltk.pos_tag(tokens)
+    #tokens = nltk.word_tokenize(first)
+    #pos = nltk.pos_tag(tokens)
     # OPTIONAL: lemmatization
-    wnl = WordNetLemmatizer()
-    lemmas = {}
-    for w in tokens:
-        lemmas[w] = wnl.lemmatize(w)
+    #wnl = WordNetLemmatizer()
+    #lemmas = {}
+    #for w in tokens:
+    #    lemmas[w] = wnl.lemmatize(w)
     # Remove closed class words
-    result = ""
-    openclassTags = ('V', 'NN', 'JJ')
-    for word, postag in pos:
-        if postag.startswith(openclassTags):
-            result += word
-            result += ' '
+    #result = ""
+    #openclassTags = ('V', 'NN', 'JJ')
+    #for word, postag in pos:
+    #    if postag.startswith(openclassTags):
+    #        result += word
+    #        result += ' '
 
-    compressed = compressSentence(first, 75)
+    compressed = compressSentence(result, 75)
     return compressed
 
 

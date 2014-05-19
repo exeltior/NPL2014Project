@@ -6,6 +6,7 @@ import nltk
 import os
 import os.path
 import random
+import re
 
 from nltk.tokenize import *
 from nltk.stem.wordnet import WordNetLemmatizer
@@ -75,6 +76,9 @@ def generateHeadline(text, docset):
 
     # Consider only first sentence
     first = sentences[0]
+    
+    # Check time/place in first sentence
+    first = re.split(' _ | - ', first)[-1]    
 
     # Tokenize and POS tag on the first sentence
     tokens = nltk.word_tokenize(first)

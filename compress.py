@@ -106,11 +106,11 @@ def compressSentence(sentence, byte_limit):
                 penalty = -lenLeaves
 
             # Penalty for Proper Nouns (want to keep)
-            penalty += 5 * len([l for l in sub.pos() if l[1] == 'NNP'])
+            # penalty += 5 * len([l for l in sub.pos() if l[1] == 'NNP'])
 
             # Do not remove if we loose too much of the sentence
-            if len(sentence) < 1.2 * byte_limit and len(sentence) - lenLeaves < 0.8 * byte_limit:
-                lenLeaves = - 10e15  # do not remove!
+            if (len(sentence) < 1.2 * byte_limit and len(sentence) - lenLeaves < 0.8 * byte_limit) or len(sentence) - lenLeaves < 0.5 * byte_limit:
+                lenLeaves = - 10e15 # do not remove!
                 print 'Marginal condition for removal not matched'
 
             # Do not remove main phrase
@@ -171,11 +171,14 @@ def sentenceFromNodes(allLeaves):
     r = r.replace(' "', '"')
     r = r.replace(" ''", "''")
     r = r.replace(" '", "'")
-
-    r = re.sub(r'([,;.]*)\.', r[-1], r)  # fix multiple punctuation keeping last symbol
+    r = r.replace('-LRB- ', '(')
+    r = r.replace(' -RRB-', ')')
+    
+    r = re.sub(r'([,;.]*)\.', r[-1], r) #fix multiple punctuation keeping last symbol
+    r = re.sub(r'^[^\w]*', '', r)
     r = r.strip()
     r = r[0].upper() + r[1:]
-
+    
     return r
 
 

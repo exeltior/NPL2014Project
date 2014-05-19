@@ -47,7 +47,8 @@ def generateHeadline(text, docset):
     if useLemmasForFrequency:
         useful_words = [wnl.lemmatize(w) for w in useful_words]
 
-    word_frequencies = FreqDist(useful_words)
+    bgs = nltk.bigrams(useful_words)
+    word_frequencies = FreqDist(bgs)
 
     most_frequent_words = [pair[0] for pair in word_frequencies.items()[:MAX_WORDS]]
 
@@ -60,7 +61,7 @@ def generateHeadline(text, docset):
     for s in working_sentences:
         count = 0
         for word in most_frequent_words:
-            if word in s:
+            if word[0] in s and word[1] in s:
                 count = count + 1
         if count > max_words:
             result = s

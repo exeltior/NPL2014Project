@@ -11,7 +11,7 @@ import re
 from nltk.tokenize import *
 from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.corpus import stopwords as st
-#from nltk.probability import FreqDist
+from nltk.probability import FreqDist
 
 from compress import compressSentence
 
@@ -48,7 +48,7 @@ def generateHeadline(text, docset):
     if useLemmasForFrequency:
         useful_words = [wnl.lemmatize(w) for w in useful_words]
 
-    #word_freq = FreqDist(useful_words)
+    word_freq = FreqDist(useful_words)
     # Tokenize text into sentences
     sentences = sent_tokenizer.tokenize(text)
 
@@ -96,7 +96,7 @@ def generateHeadline(text, docset):
             result += word
             result += ' '
 
-    result = compressSentence(first, 76)
+    result = compressSentence(first, 76, word_freq)
     return result
 
 

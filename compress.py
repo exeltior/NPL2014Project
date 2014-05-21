@@ -1,10 +1,14 @@
 import os
 from nltk.tree import *
 import re
+from nltk.stem.wordnet import WordNetLemmatizer
 
 
-def compressSentence(sentence, byte_limit):
+def compressSentence(sentence, byte_limit, w_freq):
     print '== COMPRESSING =='
+    print w_freq
+    wnl = WordNetLemmatizer()
+    
     sentence = sentence.replace("\n", "")
     outfile = open('headline.tmpdata', 'w')
     outfile.write(sentence)
@@ -27,7 +31,7 @@ def compressSentence(sentence, byte_limit):
     # PP: Prepositional phrase. Phrasal headed by a preposition
     timetags = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday',
                 'saturday', 'sunday', 'yesterday', 'tomorrow']
-    announcetags = ['said', 'announced', 'hoped', 'reported']
+    announcetags = ['said', 'say', 'says', 'announced', 'announce', 'announces' 'hoped', 'hope', 'hopes', 'reported', 'report', 'reports']
 
     allLeaves = t.pos()
     can_prune = True  # assume I can prune at first iteration
@@ -36,16 +40,18 @@ def compressSentence(sentence, byte_limit):
     # Want to detect if there is a main clouse or just coordination.
     # If a main clouse is available, want to know if it introduces an indirect speech
     mainPhrase = False
-    indirectSpeech = False
+    indirectSpeech = False #form 'The price will growth soon, John said'
     coordinator = False
+    
     for sub in t.subtrees(filter=lambda x: len(x.treeposition()) == 2 and x.parent().node == 'S'):
         if sub.node == 'CC':
             coordinator = True
         if sub.node == 'VP':
             mainPhrase = True
-            if listIntersect(sub.leaves(), announcetags):
+            if listIntersect(t.leaves()[-4:] , announcetags): # [-4:0] looking for an annoutce tag toward the end
                 # IDEA: can also exploit ration of lenght?
                 indirectSpeech = True
+                
     if mainPhrase and indirectSpeech:
         print 'Detected indirect speech'
         for sub in t.subtrees(filter=lambda x: len(x.treeposition()) == 2 and x.node == 'S'):
@@ -69,27 +75,51 @@ def compressSentence(sentence, byte_limit):
 
         candidates = []  # candidates phrases for removal
 
-        for sub in t.subtrees(filter=lambda x: len(x.leaves()) and x.leaves()[0].lower() != 'to' and
-                              ((x.node == 'PP' and x[0].node != 'TO')
-                              or (x.node == 'JJ')
-                              or (x.node == 'SBAR' and not listIntersect(x.parent().leaves(), announcetags) and
-                                  (x.left_sibling() is None or (x.left_sibling().node != 'VBG')))
-                              or (x.node == 'S' and (x.left_sibling() is None or (x.left_sibling().node != 'VBG' and x.left_sibling().node != 'IN')))
-                              or (x.node == 'NP' and sentenceFromNodes(x.pos()).lower() in timetags))):
-
+        for sub in t.subtrees(filter=lambda x: 
+                              len(x.leaves()) and x.leaves()[0].lower() != 'to' and
+                              ((x.node == 'PP' and x[0].node != 'TO') or
+                               (x.node == 'JJ') or
+                               (x.node == 'SBAR') or #and not listIntersect(x.parent().leaves(), announcetags))
+                               (x.node == 'S') or
+                               (x.node == 'NP' and sentenceFromNodes(x.pos()).lower() in timetags))):
+            
+            leaves = sub.pos()
+            lenLeaves = sum(len(s[0]) for s in leaves) + len([l for l in leaves if l[0] not in "\".,;:?''``"])            
+            # Do not remove main phrase
+            if sub.parent().node == 'ROOT':
+                continue   
+            
+            # Do not remove if we loose too much of the sentence
+            if (len(sentence) < 1.2 * byte_limit and len(sentence) - lenLeaves < 0.8 * byte_limit) or len(sentence) - lenLeaves < 0.5 * byte_limit:
+                continue
+            
+            # Condition on adjectives. Do not remove if they follow a verb
+            if (sub.node == 'JJ'):
+                idxs = find_sub_list(sub.pos(), allLeaves)
+                if idxs[0] > 0:
+                    if (allLeaves[idxs[0]-1][1].startswith('VB')):
+                        continue
+                
+            
+            # Condition on S and SBAR: should have at least 1 sibling that is no VBG or IN
+            if (sub.node == 'S' or sub.node == 'SBAR'):
+                if not sub.right_sibling() and not sub.left_sibling():
+                        continue
+                if sub.left_sibling() and (sub.left_sibling().node == 'VBG' or sub.left_sibling().node == 'IN'):
+                        continue
+                
+            # Ignore SBAR that support a verb like 'said that...'
             if (sub.node == 'SBAR'):
                 if listIntersect(sub.parent().leaves(), announcetags):
                     print 'Ignoring SBAR related to transitive verb'
                     continue
+            
+            #
+            #if (sub.node == 'S' and sub.parent().node == 'SBAR'):
+                #if listIntersect(sub.parent().parent().leaves(), announcetags):
+                    #print 'Ignoring S related to transitive verb'
+                    #continue
 
-            if (sub.node == 'S' and sub.parent().node == 'SBAR'):
-                if listIntersect(sub.parent().parent().leaves(), announcetags):
-                    print 'Ignoring S related to transitive verb'
-                    continue
-
-            # and (x.parent().node == 'S' or x.parent().node == 'VP')
-            leaves = sub.pos()
-            lenLeaves = sum(len(s[0]) for s in leaves) + len([l for l in leaves if l[0] not in "\".,;:?''``"])
 
             # ======== Adjust penalty ==========
 
@@ -108,14 +138,17 @@ def compressSentence(sentence, byte_limit):
             # Penalty for Proper Nouns (want to keep)
             # penalty += 5 * len([l for l in sub.pos() if l[1] == 'NNP'])
 
-            # Do not remove if we loose too much of the sentence
-            if (len(sentence) < 1.2 * byte_limit and len(sentence) - lenLeaves < 0.8 * byte_limit) or len(sentence) - lenLeaves < 0.5 * byte_limit:
-                lenLeaves = - 10e15 # do not remove!
-                print 'Marginal condition for removal not matched'
 
-            # Do not remove main phrase
-            if sub.parent().node == 'ROOT':
-                lenLeaves = -10e15  # do not remove!
+                
+            # Penalty according to most common words
+            p = 0;
+            for i in leaves:
+                ww = i[0].lower()
+                if ww not in announcetags:
+                    ww = wnl.lemmatize(i[0].lower())
+                    p +=  w_freq[ww] ** 2
+            penalty += p
+            print "Penalty word frequency: " + str(p)
 
             # ================================================================
 
@@ -177,7 +210,10 @@ def sentenceFromNodes(allLeaves):
     r = re.sub(r'([,;.]*)\.', r[-1], r) #fix multiple punctuation keeping last symbol
     r = re.sub(r'^[^\w]*', '', r)
     r = r.strip()
-    r = r[0].upper() + r[1:]
+    if len(r) > 1:
+        r = r[0].upper() + r[1:]
+    elif len(r):
+        r = r[0].upper()
     
     return r
 

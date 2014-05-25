@@ -66,22 +66,6 @@ def generateHeadline(text, docset):
         if count > max_words:
             result = s
             max_words = count
-            break
-    # Tokenize and POS tag on the first sentence
-    #tokens = nltk.word_tokenize(first)
-    #pos = nltk.pos_tag(tokens)
-    # OPTIONAL: lemmatization
-    #wnl = WordNetLemmatizer()
-    #lemmas = {}
-    #for w in tokens:
-    #    lemmas[w] = wnl.lemmatize(w)
-    # Remove closed class words
-    #result = ""
-    #openclassTags = ('V', 'NN', 'JJ')
-    #for word, postag in pos:
-    #    if postag.startswith(openclassTags):
-    #        result += word
-    #        result += ' '
 
     compressed = compressSentence(result, 75)
     return compressed

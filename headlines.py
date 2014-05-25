@@ -78,7 +78,6 @@ def generateHeadline(text, docset):
         if count > max_words:
             result = s
             max_words = count
-            break
 
 
     result = compressSentence(result, 76, word_freq)

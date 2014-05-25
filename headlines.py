@@ -6,12 +6,14 @@ import nltk
 import os
 import os.path
 import random
-import re
 
 from nltk.tokenize import *
 from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.corpus import stopwords as st
 from nltk.probability import FreqDist
+
+from gensim import corpora
+from gensim.models import ldamodel
 
 from compress import compressSentence
 
@@ -42,61 +44,44 @@ def generateHeadline(text, docset):
     lowercase_words = [w.lower()
                        for w in word_tokenizer.tokenize(docsetText if useDocsetData else text)]
 
-    useful_words = [w for w in lowercase_words
-                    if (w not in stopwords and len(w) > 2)]
+    all_sentences = sent_tokenizer.tokenize(docsetText)
+
+    useful_words = [w for w in lowercase_words if w not in stopwords and len(w) > 2]
 
     if useLemmasForFrequency:
         useful_words = [wnl.lemmatize(w) for w in useful_words]
-
+    input_to_dictionary = [[wnl.lemmatize(w) for w in word_tokenizer.tokenize(sentence)
+                           if w.lower() not in stopwords and len(w) > 2] for sentence in all_sentences]
+    #print input_to_dictionary
+    #sys.exit(0)
+    dictionary = corpora.Dictionary(input_to_dictionary)
+    #print dictionary
+    corpus = [dictionary.doc2bow(i) for i in input_to_dictionary]
+    #print corpus
+    lda = ldamodel.LdaModel(corpus, id2word=dictionary, num_topics=1)
+    most_frequent_words = [a[1] for a in lda.show_topics(formatted=False)[0]]
+    #print most_frequent_words
+    #sys.exit(0)
+    #corpus =
     word_freq = FreqDist(useful_words)
-    # Tokenize text into sentences
     sentences = sent_tokenizer.tokenize(text)
 
-    ## Attemp to give a score to find the best sentence. But is seems than in
-    ## fast the best sentence is always the first one
+    working_sentences = [sentence.lower() for sentence in sentences]
 
-    # Give a score to each sentence
-    #scores = np.zeros(len(sentences))
-    #for idx in xrange(len(sentences)):
-        #sentence = sentences[idx]
-        #words = [w.lower() for w in word_tokenizer.tokenize(sentence)]
-        #words = [w for w in words if (w not in stopwords and len(w) > 2)]
-        #for w in words:
-            #if useLemmasForFrequency:
-                #w = wnl.lemmatize(w)
-            #scores[idx] += word_freq.freq(w)
-        #if scores[idx] > 0:
-            #scores[idx] /=  len(words)
+    result = ''
+    max_words = -1
+    for s in working_sentences:
+        count = 0
+        for word in most_frequent_words:
+            if word in s:
+                count = count + 1
+        if count > max_words:
+            result = s
+            max_words = count
+            break
 
-    #scores[0] += 0.005
 
-    #idx_max = scores.argmax()
-    #print "Best sentence " + str(idx_max) + " -> score: " + str(scores[idx_max])
-    #print sentences[idx_max]
-
-    # Consider only first sentence
-    first = sentences[0]
-    
-    # Check time/place in first sentence
-    first = re.split(' _ | - ', first)[-1]    
-
-    # Tokenize and POS tag on the first sentence
-    tokens = nltk.word_tokenize(first)
-    pos = nltk.pos_tag(tokens)
-    # OPTIONAL: lemmatization
-    wnl = WordNetLemmatizer()
-    lemmas = {}
-    for w in tokens:
-        lemmas[w] = wnl.lemmatize(w)
-    # Remove closed class words
-    result = ""
-    openclassTags = ('V', 'NN', 'JJ')
-    for word, postag in pos:
-        if postag.startswith(openclassTags):
-            result += word
-            result += ' '
-
-    result = compressSentence(first, 76, word_freq)
+    result = compressSentence(result, 76, word_freq)
     return result
 
 
@@ -146,10 +131,12 @@ if __name__ == "__main__":
                     fullpath = os.path.join(root, files[i])
                     print "Generating headline for: " + fullpath
                     headline = generateHeadline(docset[i], docset)
+                    #sys.exit(0)
                     if headline is not None and len(headline):
                         out_file = open(out_dir + files[i], "w")
                         out_file.write(headline)
                         out_file.close()
                     else:
                         print "ERROR: headline result was empty!"
+
                 print ''

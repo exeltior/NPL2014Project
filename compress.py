@@ -2,12 +2,24 @@ import os
 from nltk.tree import *
 import re
 from nltk.stem.wordnet import WordNetLemmatizer
+from freebase import compressEntityName
 
+entities = {}
+timetags = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday',
+            'saturday', 'sunday', 'yesterday', 'tomorrow']
+announcetags = ['said', 'say', 'says', 'announced', 'announce', 'announces',
+                'hoped', 'hope', 'hopes', 'reported', 'report', 'reports',
+                'found', 'revealed', 'decided']
+
+def returnCompressionDict():
+    return entities
 
 def compressSentence(sentence, byte_limit, w_freq):
     print '== COMPRESSING =='
     print w_freq
     wnl = WordNetLemmatizer()
+    #entities.clear()
+    
     
     sentence = sentence.replace("\n", "")
     outfile = open('headline.tmpdata', 'w')
@@ -29,9 +41,7 @@ def compressSentence(sentence, byte_limit, w_freq):
     # SBAR: relative claused and subordinate clauses, including indirect questions
     # PHRASE LEVEL
     # PP: Prepositional phrase. Phrasal headed by a preposition
-    timetags = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday',
-                'saturday', 'sunday', 'yesterday', 'tomorrow']
-    announcetags = ['said', 'say', 'says', 'announced', 'announce', 'announces' 'hoped', 'hope', 'hopes', 'reported', 'report', 'reports']
+
 
     allLeaves = t.pos()
     can_prune = True  # assume I can prune at first iteration
@@ -69,6 +79,27 @@ def compressSentence(sentence, byte_limit, w_freq):
             allLeaves = t.pos()  # get new nodes
             sentence = sentenceFromNodes(allLeaves)
             break
+    
+
+    # Entity compression
+    for sub in t.subtrees(filter=lambda x: x.node == 'NP' and x.height() in range(3,5)):
+        if sum(i[1] == 'NNP' for i in sub.pos()) >= 2:
+            entityString = sentenceFromNodes(findLongestNNPSequence(sub.pos()))
+            if entityString not in entities:
+                newEntity = None
+                print sub.pos()
+                try:
+                    newEntity = compressEntityName(entityString)
+                    if newEntity and len(newEntity) and newEntity != entityString:
+                        entities[entityString] = newEntity
+                    else:
+                        entities[entityString] = None                    
+                except:
+                    print bcolors.FAIL + "Entity compression exception for: " + entityString + bcolors.ENDC
+                
+
+                    
+                
 
     # SECOND STEP: iterative pruning
     while (len(sentence) > byte_limit and can_prune):
@@ -76,25 +107,37 @@ def compressSentence(sentence, byte_limit, w_freq):
         candidates = []  # candidates phrases for removal
 
         for sub in t.subtrees(filter=lambda x: 
-                              len(x.leaves()) and x.leaves()[0].lower() != 'to' and
-                              ((x.node == 'PP' and x[0].node != 'TO') or
-                               (x.node == 'JJ') or
-                               (x.node == 'SBAR') or #and not listIntersect(x.parent().leaves(), announcetags))
-                               (x.node == 'S') or
-                               (x.node == 'NP' and sentenceFromNodes(x.pos()).lower() in timetags))):
+                              (x.node == 'PP') or
+                              (x.node == 'JJ') or
+                              (x.node == 'SBAR') or #and not listIntersect(x.parent().leaves(), announcetags))
+                              (x.node == 'S') or
+                              ((x.node == 'NP' or x.node == 'NNP') and sentenceFromNodes(x.pos()).lower() in timetags)):
             
             leaves = sub.pos()
-            lenLeaves = sum(len(s[0]) for s in leaves) + len([l for l in leaves if l[0] not in "\".,;:?''``"])            
+            lenLeaves = sum(len(s[0]) for s in leaves) + len([l for l in leaves if l[0] not in "\".,;:?''``"]) 
+            
             # Do not remove main phrase
             if sub.parent().node == 'ROOT':
                 continue   
             
             # Do not remove if we loose too much of the sentence
-            if (len(sentence) < 1.2 * byte_limit and len(sentence) - lenLeaves < 0.8 * byte_limit) or len(sentence) - lenLeaves < 0.5 * byte_limit:
+            #if (len(sentence) < 1.2 * byte_limit and len(sentence) - lenLeaves < 0.8 * byte_limit) or len(sentence) - lenLeaves < 0.5 * byte_limit:
+                #continue
+            
+            if sub.node == 'JJ' and lenLeaves < 6:
                 continue
             
+            # Do not remove if first leaf is TO after a verb
+            if (sub.node == 'SBAR' or sub.node == 'S'):
+                if len(sub.pos()):
+                    idxs = find_sub_list(sub.pos(), allLeaves)
+                    if idxs[0] > 0:
+                        if (allLeaves[idxs[0]-1][1].startswith('TO')):
+                            continue            
+            
+            
             # Condition on adjectives. Do not remove if they follow a verb
-            if (sub.node == 'JJ'):
+            if (sub.node == 'JJ' and len(sub.pos())):
                 idxs = find_sub_list(sub.pos(), allLeaves)
                 if idxs[0] > 0:
                     if (allLeaves[idxs[0]-1][1].startswith('VB')):
@@ -113,6 +156,11 @@ def compressSentence(sentence, byte_limit, w_freq):
                 if listIntersect(sub.parent().leaves(), announcetags):
                     print 'Ignoring SBAR related to transitive verb'
                     continue
+                
+            # Remove coordination together with second part of the phrase
+            if (sub.node == 'S'):
+                if sub.left_sibling() and sub.left_sibling().node == 'CC':
+                    leaves = sub.left_sibling().pos() + leaves
             
             #
             #if (sub.node == 'S' and sub.parent().node == 'SBAR'):
@@ -128,11 +176,12 @@ def compressSentence(sentence, byte_limit, w_freq):
 
             # Preserve adjectives if possible
             if sub.node == 'JJ':
-                penalty += max(0, 200 - 20 * (len(sub.treeposition()) - 1))  # want to keep adjectives
+                penalty += max(0, 300 - 20 * (len(sub.treeposition()) - 1))  # want to keep adjectives
                 print 'Adjective - penalty: ' + str(penalty)
 
             # Time tag: remove now!
-            if sub.node == 'NP':
+            if sub.node == 'NP' or sub.node == 'NNP': 
+                # note implicit condition of time tag found in the leaves
                 penalty = -lenLeaves
 
             # Penalty for Proper Nouns (want to keep)
@@ -176,7 +225,36 @@ def compressSentence(sentence, byte_limit, w_freq):
             sentence = sentenceFromNodes(allLeaves)
 
             print bcolors.WARNING + "-->  (" + str(len(sentence)) + ") " + sentence + bcolors.ENDC
+    
+    if len(sentence) < 1.1*byte_limit:
+        while len(sentence) < 1.2*byte_limit:
+            pass
+        
     return sentence
+
+def findLongestNNPSequence(l):
+    result = []
+    temp = []
+    for e in l:
+        if e[1] == 'NNP':
+            temp.append(e)
+        else:
+            if len(temp) >= len(result):
+                result = temp[:]
+                temp = []
+    if len(temp) >= len(result):
+        result = temp[:]
+        temp = []    
+    return result
+
+def findLongestNSequence(l):
+    result = []
+    temp = []
+    for e in l:
+        if e[1].startswith('N'):
+            temp.append(e)
+    return temp
+
 
 
 def listIntersect(main, l):
@@ -207,9 +285,17 @@ def sentenceFromNodes(allLeaves):
     r = r.replace('-LRB- ', '(')
     r = r.replace(' -RRB-', ')')
     
-    r = re.sub(r'([,;.]*)\.', r[-1], r) #fix multiple punctuation keeping last symbol
+    r = re.sub(r'([,;.]+)\.', '.', r) #fix multiple punctuation keeping last symbol
     r = re.sub(r'^[^\w]*', '', r)
     r = r.strip()
+
+    for key in sorted(entities, key=len, reverse=True):
+        if entities[key]:
+            r = r.replace(key, entities[key]) 
+        
+    for tag in timetags:
+        r = re.sub(r'(?i)'+tag, '', r)
+    
     if len(r) > 1:
         r = r[0].upper() + r[1:]
     elif len(r):

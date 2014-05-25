@@ -7,14 +7,15 @@ import os
 import os.path
 import random
 import re
+import codecs
 
 from nltk.tokenize import *
 from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.corpus import stopwords as st
 from nltk.probability import FreqDist
 
-from compress import compressSentence
-
+from compress import compressSentence, returnCompressionDict
+from statisticalAnalysis import *
 
 ## Settings
 # Consider the entire doc set to generate a single headline
@@ -95,9 +96,12 @@ def generateHeadline(text, docset):
         if postag.startswith(openclassTags):
             result += word
             result += ' '
-
-    result = compressSentence(first, 76, word_freq)
-    return result
+     
+    #analyzeString(first)   
+    for i in range(5):
+        print word_freq[i]
+    #first = compressSentence(first, 76, word_freq)
+    return first
 
 
 if __name__ == "__main__":
@@ -147,9 +151,20 @@ if __name__ == "__main__":
                     print "Generating headline for: " + fullpath
                     headline = generateHeadline(docset[i], docset)
                     if headline is not None and len(headline):
-                        out_file = open(out_dir + files[i], "w")
-                        out_file.write(headline)
+                        out_file = codecs.open(out_dir + files[i], 'w', encoding='utf-8')
+                        try:
+                            out_file.write(headline)
+                        except:
+                            print "EXCEPTION IN FILE OUTPUT"
+                            pass
                         out_file.close()
                     else:
                         print "ERROR: headline result was empty!"
                 print ''
+    
+    D = returnCompressionDict()
+    outfile = codecs.open('compression.txt', 'w', encoding='utf-8')
+    for key, value in D.iteritems():
+        if value:
+            outfile.write (key + '\t\t\t' + value + '\n')
+    outfile.close()
